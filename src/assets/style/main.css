@@ -42,14 +42,18 @@ body {
     color: black;
 }
 
+.text-link {
+    color: blue;
+}
+
 .empresa {
     background-color: var(--branco);
-    margin: 20px;
+    margin: auto 20px 0px 30px;
 }
 
 .servicos {
     background-color: var(--branco);
-    margin: 20px;
+    margin: 60px 20px 20px;
 }
 
 .box {
@@ -66,14 +70,14 @@ body {
 }
 
 .legenda {
-    background-color:#a5c3db;
+    background-color: var(--amarelo_ecm);
     margin: 0px;
     text-align: center;
     
 }
 
 .contato {
-    background-color:#a5c3db;
+    background-color: var(--azul_ecm);
     margin: 0px;
 }
 
@@ -83,7 +87,7 @@ body {
 }
 
 .bg-footer {
-    background-color: #a5c3db;
+    background-color: var(--amarelo_ecm);
     color: ivory;
     text-align: end;
     vertical-align: middle;
