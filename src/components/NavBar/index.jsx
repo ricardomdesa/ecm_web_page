@@ -1,11 +1,11 @@
+import mainLogo from "../../assets/logo.png"
+import "../../assets/style/main.css"
+
 function NavBar() {
     return <>
         <nav class="contato">
             <nav class="container nav-container">
                 <nav class="row">
-                    <nav class="container-fluid text-left">
-                        <p>Entre em contato e solicite visita do nosso representante:</p>
-                    </nav>
                     <nav class="col-sm">
                         <i class="far fa-regular fa-envelope"></i>
                         <a href='mailto:123@ecm.com.br'> abc@ecm.com.br</a>
@@ -23,7 +23,7 @@ function NavBar() {
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light" >
             <a class="navbar-brand" href="#">
-                {/* <img src="media/logo.png" width="100" height="80"> */}
+                <img src={mainLogo} width="100" height="80"></img>
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
@@ -43,7 +43,6 @@ function NavBar() {
                 </ul>
             </div>
         </nav>
-        <hr></hr>
     </>
 }
 
