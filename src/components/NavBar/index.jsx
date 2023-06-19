@@ -3,7 +3,7 @@ import "../../assets/style/main.css"
 
 function NavBar() {
     return <>
-        <nav class="contato">
+        <nav class="nav-contato">
             <nav class="container nav-container">
                 <nav class="row">
                     <nav class="col-sm">
@@ -28,17 +28,17 @@ function NavBar() {
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#empresa">Empresa</a>
+                        <a class="nav-link" href="#empresa"><span class="text-style">Empresa</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link" href="#servicos"><span class="text-style">Serviços</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="nav-link" href="#contato"><span class="text-style">Contato</span></a>
                     </li>
                 </ul>
             </div>

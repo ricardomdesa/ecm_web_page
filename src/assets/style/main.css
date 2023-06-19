@@ -1,6 +1,8 @@
 :root {                                     /*DECLARAR VARIAVEIS: atalhos para as cores principais do projeto */
     --azul: #5176c7; /*AINDA NAO DEFINIDO*/
     --branco: rgb(255, 255, 255);
+    --azul_ecm: rgb(0, 130, 199);
+    --amarelo_ecm: rgb(239, 174, 51);
 }
 
 *{                                          /*reset de todos os estilos (para inicio de projeto)*/
@@ -20,18 +22,24 @@ body {
 }
 
 .navbar {
-    background-color: #084e88;
+    background-color: var(--azul_ecm);
     border-bottom: #080808;
+}
+
+.nav-contato {
+    background-color: var(--amarelo_ecm);
+    margin: 0px;
 }
 
 .nav-container {
     margin-left: 20px;
     width: 200%;
-    color: #5d5f63;
+    background-color: var(--amarelo_ecm);
+    color: rgb(0, 0, 0);
 }
 
 .text-style {
-    color: --gray;
+    color: black;
 }
 
 .empresa {
