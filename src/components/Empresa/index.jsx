@@ -5,7 +5,7 @@ function Empresa() {
   return (
     <section id="empresa">
         <div class="container-fluid empresa text-center">
-          <img src={mainLogo} width="900" height="500" />
+          <img src={mainLogo} width="900" height="500" alt="logo" />
         </div>
         <div class="container-fluid empresa text-center">
           <h3>Quem somos</h3>

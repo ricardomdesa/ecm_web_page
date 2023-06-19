@@ -23,7 +23,7 @@ function NavBar() {
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light" >
             <a class="navbar-brand" href="#">
-                <img src={mainLogo} width="100" height="80"></img>
+                <img src={mainLogo} width="100" height="80" alt="logo"></img>
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
