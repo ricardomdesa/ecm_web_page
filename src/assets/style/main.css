@@ -1,95 +1,95 @@
-:root {                                     /*DECLARAR VARIAVEIS: atalhos para as cores principais do projeto */
-    --azul: #5176c7; /*AINDA NAO DEFINIDO*/
-    --branco: rgb(255, 255, 255);
-    --azul_ecm: rgb(0, 130, 199);
-    --amarelo_ecm: rgb(239, 174, 51);
+:root {
+  /*DECLARAR VARIAVEIS: atalhos para as cores principais do projeto */
+  --azul: #5176c7; /*AINDA NAO DEFINIDO*/
+  --branco: rgb(255, 255, 255);
+  --azul_ecm: rgb(0, 130, 199);
+  --amarelo_ecm: rgb(239, 174, 51);
 }
 
-*{                                          /*reset de todos os estilos (para inicio de projeto)*/
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  /*reset de todos os estilos (para inicio de projeto)*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*Elementos Base*/
 
 body {
-    font: 20px Arial, sans-serif;
+  font: 20px Arial, sans-serif;
 }
 
 .titulo {
-    font: 20px Arial, sans-serif;
+  font: 20px Arial, sans-serif;
 }
 
 .navbar {
-    background-color: var(--azul_ecm);
-    border-bottom: #080808;
+  background-color: var(--azul_ecm);
+  border-bottom: #080808;
 }
 
 .nav-contato {
-    background-color: var(--amarelo_ecm);
-    margin: 0px;
+  background-color: var(--amarelo_ecm);
+  margin: 0px;
 }
 
 .nav-container {
-    margin-left: 20px;
-    width: 200%;
-    background-color: var(--amarelo_ecm);
-    color: rgb(0, 0, 0);
+  margin-left: 20px;
+  width: 200%;
+  background-color: var(--amarelo_ecm);
+  color: rgb(0, 0, 0);
 }
 
 .text-style {
-    color: black;
+  color: black;
 }
 
 .text-link {
-    color: blue;
+  color: blue;
 }
 
 .empresa {
-    background-color: var(--branco);
-    margin: auto 20px 0px 30px;
+  background-color: var(--branco);
+  margin: auto 20px 0px 30px;
 }
 
 .servicos {
-    background-color: var(--branco);
-    margin: 60px 20px 20px;
+  background-color: var(--branco);
+  margin: 60px 20px 20px;
 }
 
 .box {
-    height: 100%;
-    width: 100%;
-    display: block;
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
 .carrosel-servico {
-   margin-top: 20px;
-   margin-left: 270px;
-   margin-right: 270px;
-
+  margin-top: 20px;
+  margin-left: 270px;
+  margin-right: 270px;
 }
 
 .legenda {
-    background-color: var(--amarelo_ecm);
-    margin: 0px;
-    text-align: center;
-    
+  background-color: var(--amarelo_ecm);
+  margin: 0px;
+  text-align: center;
 }
 
 .contato {
-    background-color: var(--azul_ecm);
-    margin: 0px;
+  background-color: var(--azul_ecm);
+  margin: 0px;
 }
 
 .texto {
-    font: 30px Arial, sans-serif;
-    font-style: inherit;
+  font: 30px Arial, sans-serif;
+  font-style: inherit;
 }
 
 .bg-footer {
-    background-color: var(--amarelo_ecm);
-    color: ivory;
-    text-align: end;
-    vertical-align: middle;
-    font: 10px Arial, sans-serif;
+  background-color: var(--amarelo_ecm);
+  color: ivory;
+  text-align: end;
+  vertical-align: middle;
+  font: 10px Arial, sans-serif;
 }
