@@ -68,7 +68,7 @@ function Servicos() {
         />
       </Container>
     </section>
-  );
+  )
 }
 
 export default Servicos;
