@@ -1,4 +1,6 @@
 import { useState } from "react";
+import ModalServicos from "../ModalServicos"
+import Button from 'react-bootstrap/Button';
 import ControlledCarousel from "./ControlledCarousel";
 
 import arcond from "../../assets/arcond.jpg";
@@ -13,6 +15,7 @@ import { Container } from "react-bootstrap";
 
 function Servicos() {
   const [selectedService, setselectedService] = useState(" ");
+  const [modalShow, setModalShow] = useState(false);
 
   function handleCardClick(value) {
     setselectedService(value);
@@ -62,6 +65,13 @@ function Servicos() {
           margin: "30px",
         }}
       >
+        <Button variant="primary" onClick={() => setModalShow(true)}>
+        modal 1
+        </Button>
+        <ModalServicos
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        />
         <ControlledCarousel
           handleCardClick={handleCardClick}
           imagesTexts={imagesTexts}
