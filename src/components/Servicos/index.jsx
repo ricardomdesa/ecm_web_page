@@ -40,7 +40,7 @@ function Servicos() {
         imagesTexts={imagesTexts}
       />}
     </section>
-  );
+  )
 }
 
 export default Servicos;

@@ -1,10 +1,27 @@
 import { Card, Carousel, Stack } from "react-bootstrap";
 import Figure from "react-bootstrap/Figure";
 
-function ControlledCarousel(props) {
+import eletrica from "../../../assets/eletrica.jpg";
+import caldera from "../../../assets/caldera.jpg";
+import arcond from "../../../assets/arcond.jpg";
+import civil from "../../../assets/civil.jpg";
+import cozinha from "../../../assets/cozinha.jpg";
+import laudo from "../../../assets/laudo.jpg";
+import terceiro from "../../../assets/terceiro.jpg";
+
+function ControlledCarousel() {
   const handleClick = (data) => {
     props.handleCardClick(data);
   };
+  const imagesTexts = [
+    { image: eletrica, text: "Elétrica" },
+    { image: caldera, text: "Mecanica e Calderaria" },
+    { image: arcond, text: "Refrigeração" },
+    { image: civil, text: "Construção Civil" },
+    { image: cozinha, text: "Cozinha Industrial" },
+    { image: laudo, text: "Treinamentos e Laudos Elétricos" },
+    { image: terceiro, text: "Terceirização de serviços" },
+  ];
 
   return (
     <>
