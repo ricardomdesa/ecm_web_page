@@ -1,6 +1,7 @@
 :root {                                     /*DECLARAR VARIAVEIS: atalhos para as cores principais do projeto */
-    --azul: #5176c7; /*AINDA NAO DEFINIDO*/
     --branco: rgb(255, 255, 255);
+    --azul_ecm: rgb(0, 130, 199);
+    --amarelo_ecm: rgb(239, 174, 51);
 }
 
 *{                                          /*reset de todos os estilos (para inicio de projeto)*/
@@ -20,18 +21,29 @@ body {
 }
 
 .navbar {
-    background-color: #084e88;
+    background-color: var(--azul_ecm);
     border-bottom: #080808;
+}
+
+.nav-contato {
+    background-color: var(--amarelo_ecm);
+    margin: 0px;
 }
 
 .nav-container {
     margin-left: 20px;
     width: 200%;
-    color: #5d5f63;
+    color: rgb(0, 0, 0);
+    background-color: var(--amarelo_ecm);
 }
 
 .text-style {
-    color: --gray;
+    color: rgb(0, 0, 0);
+}
+
+.text-link {
+    color: rgb(18, 21, 172);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .empresa {
@@ -54,18 +66,16 @@ body {
    margin-top: 20px;
    margin-left: 270px;
    margin-right: 270px;
-
 }
 
 .legenda {
-    background-color:#a5c3db;
+    background-color:var(--amarelo_ecm);
     margin: 0px;
     text-align: center;
-    
 }
 
 .contato {
-    background-color:#a5c3db;
+    background-color:var(--azul_ecm);
     margin: 0px;
 }
 
@@ -75,9 +85,9 @@ body {
 }
 
 .bg-footer {
-    background-color: #a5c3db;
+    background-color: var(--amarelo_ecm);
     color: ivory;
-    text-align: end;
+    text-align:start;
     vertical-align: middle;
-    font: 10px Arial, sans-serif;
+    font: 15px Arial, sans-serif;
 }

@@ -17,7 +17,7 @@ function ControlledCarousel() {
     { image: arcond, text: "Refrigeração" },
     { image: civil, text: "Construção Civil" },
     { image: cozinha, text: "Cozinha Industrial" },
-    { image: laudo, text: "Treinamentos e Laudos Eletricos" },
+    { image: laudo, text: "Treinamentos e Laudos Elétricos" },
     { image: terceiro, text: "Terceirização de serviços" },
   ];
 
