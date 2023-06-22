@@ -13,11 +13,11 @@
   box-sizing: border-box;
 }
 
-/*Elementos Base*/
-
 body {
   font: 20px Arial, sans-serif;
 }
+
+/* 
 
 .titulo {
   font: 20px Arial, sans-serif;
@@ -85,11 +85,4 @@ body {
   font: 30px Arial, sans-serif;
   font-style: inherit;
 }
-
-.bg-footer {
-  background-color: var(--amarelo_ecm);
-  color: ivory;
-  text-align: end;
-  vertical-align: middle;
-  font: 10px Arial, sans-serif;
-}
+ */

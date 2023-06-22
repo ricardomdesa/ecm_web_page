@@ -1,48 +1,77 @@
-import "../../assets/style/main.css";
+import { Container } from "react-bootstrap";
 
 function Contato() {
+  const linkStyle = { color: "rgb(0, 130, 199)" };
   return (
     <section id="contato">
-      <div class="contato">
-        <div class="container-fluid text-center">
+      <div
+        style={{
+          backgroundColor: "rgb(26, 34, 53",
+          color: "aliceblue",
+        }}
+      >
+        <Container
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+          }}
+        >
           <h3>Contato</h3>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
+        </Container>
+        <Container
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            flexWrap: "wrap",
+            gap: 40,
+          }}
+        >
+          <Container
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "left",
+              marginBottom: "20px",
+            }}
+          >
+            <div>
+              <br />
               <p>
-                {" "}
                 <strong>
-                  Nosso objetivo é oferecer as melhores soluções para nossos
-                  clientes!{" "}
+                  Entre em contato e solicite a visita do nosso representante:
                 </strong>
               </p>
-            </div>
-            <div class="col-sm">
-              <p>
-                <strong>Solicite a visita de nosso representante:</strong>
-              </p>
+              <br />
               <i class="fa fa-regular fa-phone"></i> (19) 3865-7350 <br />
               <i class="fab fa-brands fa-whatsapp"></i> (19) 98210-9681 <br />
               <i class="far fa-regular fa-envelope"></i>
               <a href="mailto:123@ecm.com.br">
-                <span class="text-link">abc@ecm.com.br</span>{" "}
+                <span style={linkStyle}> abc@ecm.com.br</span>{" "}
               </a>
             </div>
-            <div class="col-sm">
-              <p>
-                <strong>Nossas redes</strong>
-              </p>
-              <i class="fab fa-brands fa-facebook"></i> Facebook <br />
-              <i class="fab fa-brands fa-linkedin"></i> Linkedin <br />
+            <div>
               <i class="fab fa-brands fa-instagram"></i>
               <a href="https://www.instagram.com/ecmindustrial/">
                 {" "}
-                <span class="text-link">Instagram</span>{" "}
+                <span style={linkStyle}> Instagram</span>{" "}
               </a>
             </div>
-          </div>
-        </div>
+          </Container>
+          <Container
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "flex-end",
+              marginBottom: "20px",
+            }}
+          >
+            <span style={{ color: "rgb(0, 130, 199)" }}>
+              "O nosso maior valor é a sua confiança!"
+            </span>
+          </Container>
+        </Container>
       </div>
     </section>
   );
