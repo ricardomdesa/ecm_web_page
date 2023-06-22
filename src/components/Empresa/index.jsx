@@ -1,13 +1,21 @@
-import mainLogo from "../../assets/logo.png"
-import "../../assets/style/main.css"
+import { Container } from "react-bootstrap";
+import mainLogo from "../../assets/logo.png";
 
 function Empresa() {
   return (
-    <section id="empresa">
-        <div class="container-fluid empresa text-center">
-          <img src={mainLogo} width="900" height="500" alt="logo" />
-        </div>
-        <div class="container-fluid empresa text-center">
+    <section id="empresa" style={{marginBottom: "30px"}}>
+      <Container
+        style={{
+          display: "flex",
+          alignItems: "center",
+          backgroundColor: "white",
+          margin: "auto 20px 0px 30px",
+        }}
+      >
+        <img src={mainLogo} width="900" height="500" alt="logo" />
+      </Container>
+      <Container style={{ display: "flex" }}>
+        <div style={{ display: "flex", alignItems: "center" }}>
           <h3>Quem somos</h3>
           <p>
             A ECM - Serviços e Manutenção Industrial é uma empresa com grande
@@ -19,8 +27,9 @@ function Empresa() {
             grandes empresas.
           </p>
         </div>
-        <hr />
-      </section>
+      </Container>
+      <hr />
+    </section>
   );
 }
 

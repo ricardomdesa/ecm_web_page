@@ -1,49 +1,45 @@
-import mainLogo from "../../assets/logo.png"
-import "../../assets/style/main.css"
+import { Container } from "react-bootstrap";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import mainLogo from "../../assets/logo.png";
 
 function NavBar() {
-    return <>
-        <nav class="nav-contato">
-            <nav class="container nav-container">
-                <nav class="row">
-                    <nav class="col-sm">
-                        <i class="far fa-regular fa-envelope"></i>
-                        <a href='mailto:123@ecm.com.br'> abc@ecm.com.br</a>
-                    </nav>
-                    <nav class="col-sm">
-                        <i class="fa fa-regular fa-phone"></i> (19) 3865-7350 &nbsp;&nbsp;
-                        <i class="fab fa-brands fa-whatsapp"></i> (19) 98210-9681
-                    </nav>
-                    <nav class="col-sm">
-                        <i class="fab fa-brands fa-instagram"></i>
-                        <a href='https://www.instagram.com/ecmindustrial/'>Instagram</a>
-                    </nav>
-                </nav>
-            </nav>
-        </nav>
-        <nav class="navbar navbar-expand-lg navbar-light" >
-            <a class="navbar-brand" href="#">
-                <img src={mainLogo} width="100" height="80" alt="logo"></img>
-            </a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#empresa"><span class="text-style">Empresa</span></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicos"><span class="text-style">Serviços</span></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato"><span class="text-style">Contato</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  const navStyle = {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    flexWrap: "wrap",
+    gap: 16,
+  };
+  const containerStyle = {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 16,
+  };
+  const linkStyle = { color: "aliceblue", fontsize: "20px" };
+
+  return (
+    <>
+      <Navbar expand="lg" style={{ backgroundColor: "rgb(26, 34, 53" }}>
+        <Container style={containerStyle}>
+          <Navbar.Brand href="#home">
+            <img src={mainLogo} width="100" height="80" alt="logo"></img>
+          </Navbar.Brand>
+          <Nav className="me-auto justify-content-center" style={navStyle}>
+            <Nav.Link href="#empresa">
+              <span style={linkStyle}>Empresa</span>
+            </Nav.Link>
+            <Nav.Link href="#servicos">
+              <span style={linkStyle}>Serviços</span>
+            </Nav.Link>
+            <Nav.Link href="#contato">
+              <span style={linkStyle}>Contato</span>
+            </Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
     </>
+  );
 }
 
-export default NavBar
+export default NavBar;

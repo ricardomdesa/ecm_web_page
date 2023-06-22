@@ -1,5 +1,5 @@
-function Whatsapp(){
-return 
-<></>
+function Whatsapp() {
+  return;
+  <></>;
 }
-export default Whatsapp
+export default Whatsapp;
