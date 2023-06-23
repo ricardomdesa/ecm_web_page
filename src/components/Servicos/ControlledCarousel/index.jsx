@@ -2,7 +2,6 @@ import { Card, Carousel, Stack } from "react-bootstrap";
 import Figure from "react-bootstrap/Figure";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useState } from "react";
 
 function ControlledCarousel(props) {
   return (
