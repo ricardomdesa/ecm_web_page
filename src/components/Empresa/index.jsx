@@ -19,12 +19,13 @@ function Empresa() {
           <h3>Quem somos</h3>
           <p>
             A ECM - Serviços e Manutenção Industrial é uma empresa com grande
-            experiência no segumento, cujo objetivo é a completa SATISFAÇÃO dos
-            nossos clientes.
+            experiência no segmento, cujo objetivo é a completa satisfação dos clientes.
             <br />
             Contamos com uma equipe especializada e qualificada para atender aos
             mais diversos desafios presentes no cotidiano das pequenas, médias e
             grandes empresas.
+            <br />
+            <strong>Nosso objetivo é oferecer as melhores soluções para nossos clientes!</strong>
           </p>
         </div>
       </Container>
