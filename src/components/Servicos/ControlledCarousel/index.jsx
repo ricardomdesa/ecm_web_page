@@ -8,27 +8,26 @@ function ControlledCarousel(props) {
 
   return (
     <>
-      <Carousel style={{ height: 500 }} variant="dark" slide="false">
+      <Carousel style={{ height: 500 }} variant="dark">
         {props.imagesTexts.map((data, index, array) => (
-          <Carousel.Item onClick={handleClick(array[index].text)}>
-            <Stack
-              direction="horizontal"
-              className="justify-content-center align-items-center"
-            >
+          <Carousel.Item onClick={handleClick(array[index].text)} key={index} style={{ height: 500 }}>
+            <Stack style={{ justifyContent: "center", alignItems: "center" }}>
               <Card>
                 <Figure.Image
-                  className="d-block"
                   width={500}
                   height={200}
                   alt="171x180"
                   src={data.image}
+                  style={{ display: "block" }}
                 />
-                <div
-                  className="p-2 justify-content-center align-items-center"
-                  style={{ backgroundColor: "rgb(239, 174, 51)" }}
+                <Card.Text
+                  style={{
+                    textAlign: "center",
+                    backgroundColor: "rgb(239, 174, 51)",
+                  }}
                 >
                   {data.text}
-                </div>
+                </Card.Text>
               </Card>
             </Stack>
           </Carousel.Item>
