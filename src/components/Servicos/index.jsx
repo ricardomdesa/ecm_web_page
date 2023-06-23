@@ -12,11 +12,10 @@ import terceiro from "../../assets/terceiro.jpg";
 import { Container } from "react-bootstrap";
 
 function Servicos() {
-  const [data, setData] = useState(" ");
+  const [selectedService, setselectedService] = useState(" ");
 
   function handleCardClick(value) {
-    setData(value);
-    console.log("Card clicked", data);
+    setselectedService(value);
   }
 
   const imagesTexts = [
@@ -30,7 +29,7 @@ function Servicos() {
   ];
 
   return (
-    <section id="servicos" style={{ marginBottom: "30px" }}>
+    <section id="servicos">
       <Container
         style={{
           display: "flex",
@@ -63,12 +62,10 @@ function Servicos() {
           margin: "30px",
         }}
       >
-        {true && (
-          <ControlledCarousel
-            handleCardClick={handleCardClick}
-            imagesTexts={imagesTexts}
-          />
-        )}
+        <ControlledCarousel
+          handleCardClick={handleCardClick}
+          imagesTexts={imagesTexts}
+        />
       </Container>
     </section>
   );
