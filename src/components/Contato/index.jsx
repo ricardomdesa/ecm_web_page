@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 function Contato() {
   const linkStyle = { color: "rgb(0, 130, 199)" };
   return (
-    <section id="contato">
+    <section id="contato" style={{position: "relative"}}>
       <div
         style={{
           backgroundColor: "rgb(26, 34, 53",

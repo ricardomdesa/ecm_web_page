@@ -1,18 +1,21 @@
 import { Card, Carousel, Stack } from "react-bootstrap";
 import Figure from "react-bootstrap/Figure";
 
-function ControlledCarousel(props) {
-  const handleClick = (data) => {
-    props.handleCardClick(data);
-  };
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useState } from "react";
 
+function ControlledCarousel(props) {
   return (
     <>
       <Carousel style={{ height: 500 }} variant="dark">
         {props.imagesTexts.map((data, index, array) => (
-          <Carousel.Item onClick={handleClick(array[index].text)} key={index} style={{ height: 500 }}>
+          <Carousel.Item key={index}>
             <Stack style={{ justifyContent: "center", alignItems: "center" }}>
-              <Card>
+              <Card
+                onClick={() => {
+                  props.handleCardClick(data.text);
+                }}
+              >
                 <Figure.Image
                   width={500}
                   height={200}

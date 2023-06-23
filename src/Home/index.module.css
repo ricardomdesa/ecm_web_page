@@ -1,26 +1,14 @@
 div.Layout {
   display: grid;
   height: 100vh;
-  grid-template:
-    "header" 25px
-    "." 0px
-    "body" 1fr / 100% 1fr;
+  grid-template-areas:
+    "header header header header"
+    "body body body body"
+    "footer footer footer footer"
 }
 
 div.Layout > section {
   background: white;
-}
-
-section.Layout__Menu {
-  display: flex;
-  grid-area: menu;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px 0;
-}
-
-section.Layout__Menu > * {
-  margin: 12px 0;
 }
 
 section.Layout__Header {
@@ -30,16 +18,21 @@ section.Layout__Header {
 }
 
 section.Layout__Header > header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: block;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   height: 100%;
-  width: 95%;
+  /* width: 95%; */
   margin: 0 auto;
 }
 
 section.Layout__Body {
   grid-area: body;
+  overflow-y: scroll;
+}
+
+section.Layout__Footer {
+  grid-area: footer;
 }
 
 section.Layout__Body > div {
