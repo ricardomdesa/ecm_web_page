@@ -1,4 +1,4 @@
-import mainLogo from "../../assets/logo.png";
+import mainLogo from "../../assets/logo_ecm.png";
 import "../../assets/style/main.css";
 
 function NavBar() {

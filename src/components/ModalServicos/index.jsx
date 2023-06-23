@@ -11,16 +11,17 @@ function ModalServicos(props) {
         >
           <Modal.Header closeButton>
             <Modal.Title id="contained-modal-title-vcenter">
-              Modal heading
+              {props.service.title}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Centered Modal</h4>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
+            <p>* Projetos elétricos (novas instalações, alteração de layout, etc);</p>
+            <p>* Manutenção em equipamentos industriais;</p>
+            <p>* Infraestrutura elétrica;</p>
+            <p>* Adequação de equipamentos conforme NR10 e NR12;</p>
+            <p>* Produtos e Soluções em Automação Industrial;</p>
+            <p>* Projetos Unifilares;</p>
+            <p>* Consultoria de Projetos elétricos e eletrônicos.</p>
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={props.onHide}>Close</Button>

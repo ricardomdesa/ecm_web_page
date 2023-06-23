@@ -7,6 +7,9 @@ import ControlledCarousel from "./ControlledCarousel"
 
 function Servicos(){
     const [modalShow, setModalShow] = useState(false);
+    const service = {
+        title:
+    }
     return <section id="servicos">
         <div class="container-fluid servicos text-center">
             <h3>Serviços</h3>
@@ -19,6 +22,7 @@ function Servicos(){
         <ModalServicos
         show={modalShow}
         onHide={() => setModalShow(false)}
+        service={service}
         />
         <div class="carrosel-servico">
         </div>
