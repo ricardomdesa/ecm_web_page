@@ -30,15 +30,46 @@ function Servicos() {
   ];
 
   return (
-    <section id="servicos" style={{marginBottom: "30px"}}>
-      <Container>
-        <h3>Serviços {data}</h3>
-        <p>Soluções customizadas para setores estratégicos.</p>
+    <section id="servicos" style={{ marginBottom: "30px" }}>
+      <Container
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          margin: "30px 30px 30px 30px",
+        }}
+      >
+        <h3>Serviços</h3>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            margin: "30px",
+          }}
+        >
+          <p>Soluções customizadas para setores estratégicos.</p>
+        </div>
       </Container>
-      {false &&<ControlledCarousel
-        handleCardClick={handleCardClick}
-        imagesTexts={imagesTexts}
-      />}
+      <Container
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          margin: "30px",
+        }}
+      >
+        {true && (
+          <ControlledCarousel
+            handleCardClick={handleCardClick}
+            imagesTexts={imagesTexts}
+          />
+        )}
+      </Container>
     </section>
   );
 }
