@@ -71,6 +71,7 @@ function Servicos() {
         <ModalServicos
         show={modalShow}
         onHide={() => setModalShow(false)}
+        service={service}
         />
         <ControlledCarousel
           handleCardClick={handleCardClick}
