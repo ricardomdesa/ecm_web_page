@@ -4,7 +4,7 @@ div.Layout {
   grid-template-areas:
     "header header header header"
     "body body body body"
-    "footer footer footer footer"
+    "footer footer footer footer";
 }
 
 div.Layout > section {
@@ -14,7 +14,7 @@ div.Layout > section {
 section.Layout__Header {
   grid-area: header;
   position: sticky;
-  top: 0
+  top: 0;
 }
 
 section.Layout__Header > header {

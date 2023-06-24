@@ -7,8 +7,7 @@ export default function NavContact() {
     gap: 16,
     justifyContent: "center",
     backgroundColor: "rgb(26, 34, 53",
-    
-  }
+  };
   const linkStyle = { color: "aliceblue" };
 
   return (
@@ -24,11 +23,11 @@ export default function NavContact() {
       </Nav.Item>
       &nbsp;&nbsp;&nbsp;
       <Nav.Item style={linkStyle} className="fa fa-regular fa-phone">
-          &nbsp; (19) 3865-7350
+        &nbsp; (19) 3865-7350
       </Nav.Item>
       &nbsp;&nbsp;&nbsp;
       <Nav.Item style={linkStyle} className="fa fa-brands fa-whatsapp">
-          &nbsp; (19) 98210-9681
+        &nbsp; (19) 98210-9681
       </Nav.Item>
     </Nav>
   );

@@ -28,13 +28,19 @@ function NavBar() {
           </Navbar.Brand>
           <Nav className="me-auto justify-content-center" style={navStyle}>
             <Nav.Link href="#empresa">
-              <span style={linkStyle}><u>Empresa</u></span>
+              <span style={linkStyle}>
+                <u>Empresa</u>
+              </span>
             </Nav.Link>
             <Nav.Link href="#servicos">
-              <span style={linkStyle}><u>Serviços</u></span>
+              <span style={linkStyle}>
+                <u>Serviços</u>
+              </span>
             </Nav.Link>
             <Nav.Link href="#contato">
-              <span style={linkStyle}><u>Contato</u></span>
+              <span style={linkStyle}>
+                <u>Contato</u>
+              </span>
             </Nav.Link>
           </Nav>
         </Container>

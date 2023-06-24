@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 function Contato() {
   const linkStyle = { color: "rgb(0, 130, 199)" };
   return (
-    <section id="contato" style={{position: "relative"}}>
+    <section id="contato" style={{ position: "relative" }}>
       <div
         style={{
           backgroundColor: "rgb(26, 34, 53",
@@ -46,15 +46,17 @@ function Contato() {
               <i class="fab fa-brands fa-whatsapp"></i> (19) 98210-9681 <br />
               <i class="far fa-regular fa-envelope"></i>
               <a href="mailto:123@ecm.com.br">
-                <span style={linkStyle}><u> abc@ecm.com.br</u></span>{" "}
+                <span style={linkStyle}>
+                  <u> abc@ecm.com.br</u>
+                </span>{" "}
               </a>
-              
             </div>
             <div>
               <i class="fab fa-brands fa-instagram"></i>
               <a href="https://www.instagram.com/ecmindustrial/">
-                
-                <span style={linkStyle}><u> Instagram</u></span>{" "}
+                <span style={linkStyle}>
+                  <u> Instagram</u>
+                </span>{" "}
               </a>
             </div>
           </Container>
@@ -67,7 +69,9 @@ function Contato() {
             }}
           >
             <span style={{ color: "rgb(0, 130, 199)" }}>
-              <i><strong>"O nosso maior valor é a sua confiança!"</strong></i>
+              <i>
+                <strong>"O nosso maior valor é a sua confiança!"</strong>
+              </i>
             </span>
           </Container>
         </Container>

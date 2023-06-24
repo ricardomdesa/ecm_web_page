@@ -8,27 +8,26 @@ import NavContact from "../components/NavContact";
 import styles from "./index.module.css";
 import "../assets/style/main.css";
 
-
 function Home() {
   return (
-      <div className={styles.Layout}>
-        <section className={styles.Layout__Header}>
-          <header>
-            <NavContact />
-          </header>
-        </section>
+    <div className={styles.Layout}>
+      <section className={styles.Layout__Header}>
+        <header>
+          <NavContact />
+        </header>
+      </section>
 
-        <section className={styles.Layout__Body}>
-          <NavBar />
-          <Empresa />
-          <Servicos />
-          <Contato />
-        </section>
+      <section className={styles.Layout__Body}>
+        <NavBar />
+        <Empresa />
+        <Servicos />
+        <Contato />
+      </section>
 
-        <section className={styles.Layout__Footer}>
-          <Footer />
-        </section>
-      </div>
+      <section className={styles.Layout__Footer}>
+        <Footer />
+      </section>
+    </div>
   );
 }
 
