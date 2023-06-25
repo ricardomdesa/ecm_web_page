@@ -14,18 +14,20 @@ export default function NavContact() {
     <Nav style={navStyle} activeKey="/home">
       <Nav.Item>
         <Nav.Link
-          className="fa fa-regular fa-envelope"
+          className="far fa-regular fa-envelope"
           href="mailto:123@ecm.com.br"
           style={linkStyle}
         >
           &nbsp; abc@ecm.com.br
         </Nav.Link>
       </Nav.Item>
+      &nbsp;&nbsp;&nbsp;
       <Nav.Item style={linkStyle} className="fa fa-regular fa-phone">
-          &nbsp; (19) 3865-7350
+        &nbsp; (19) 3865-7350
       </Nav.Item>
+      &nbsp;&nbsp;&nbsp;
       <Nav.Item style={linkStyle} className="fa fa-brands fa-whatsapp">
-          &nbsp; (19) 98210-9681
+        &nbsp; (19) 98210-9681
       </Nav.Item>
     </Nav>
   );

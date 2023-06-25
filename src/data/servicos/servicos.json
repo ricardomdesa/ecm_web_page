@@ -1,0 +1,96 @@
+{
+  "servicos": [
+    {
+      "id": "eletrica",
+      "title": "Serviços de Elétrica",
+      "img_servico": "eletrica.jpg",
+      "conteudos": [
+        "Projetos elétricos (novas instalações, alteração de layout, etc);",
+        "Manutenção em equipamentos industriais;",
+        "Infraestrutura elétrica;",
+        "Adequação de equipamentos conforme NR10 e NR12;",
+        "Produtos e Soluções em Automação Industrial;",
+        "Projetos Unifilares;",
+        "Consultoria de Projetos elétricos e eletrônicos."
+      ]
+    },
+
+    {
+      "id": "mecanica",
+      "title": "Mecânica e Calderaria",
+      "img_servico": "caldera.jpg",
+      "conteudos": [
+        "Montagem e desmontagem de máquinas;",
+        "Manutenção em equipamentos industriais;",
+        "Fabricação e montagem de estruturas metálicas, escadas,",
+        "plataformas e suportes em geral;",
+        "Adequação de equipamentos conforme NR12;",
+        "Serviços de usinagem em geral."
+      ]
+    },
+
+    {
+      "id": "refrigeracao",
+      "title": "Refrigeração",
+      "img_servico": "arcond.jpg",
+      "conteudos": [
+        "Equipamentos de ar condicionado: instalação, manutenção corretiva e preventiva, higienização, elaboração de PMOC;",
+        "Manutenção em Chiller;",
+        "Manutenção em Câmaras refrigeradas."
+      ]
+    },
+
+    {
+      "id": "construcao",
+      "title": "Construção Civil",
+      "img_servico": "civil.jpg",
+      "conteudos": [
+        "Reformas em geral (ampliações, pintura, impermeabilizações, etc);",
+        "Dry wall;",
+        "Pisos intertravados;",
+        "Terraplanagem, aterros e demolição;",
+        "Manutenção e instalação de sistemas elétricos e hidráulicos."
+      ]
+    },
+
+    {
+      "id": "cozinha",
+      "title": "Cozinha Industrial",
+      "img_servico": "cozinha.jpg",
+      "conteudos": [
+        "Mão de obra especializada para realização de toda a manutenção em equipamentos de cozinhas industriais.",
+        "Fornos combinados, elétricos e a gás;",
+        "Pass through (quente e Frio);",
+        "Freezer, geladeiras e Câmaras refrigeradas;",
+        "Lava-Louça industrial;",
+        "Utensílios e equipamentos em geral (cortadores, liquidificadores, etc.);",
+        "Montagem e projetos em geral."
+      ]
+    },
+    {
+      "id": "laudos",
+      "title": "Treinamentos e laudos elétricos",
+      "img_servico": "laudo.jpg",
+      "conteudos": [
+        "Laudo Elétrico e Inspeção NR10;",
+        "Laudos para AVCB;",
+        "Laudo termográfico;",
+        "Laudo SPDA;",
+        "Treinamentos em NR10 (Formação e Reciclagem);",
+        "Treinamentos em SEP (Formação e Reciclagem);",
+        "Treinamento lock out/ tag out;"
+      ]
+    },
+
+    {
+      "id": "terceirizacao",
+      "title": "Terceirização de serviços",
+      "img_servico": "terceiro.jpg",
+      "conteudos": [
+        "Soluções em facilities;",
+        "Profissionais especializados em Elétrica, Mecânica, Refrigeração e Construção civil;",
+        "Gestão de Mão de Obra temporária de acordo com a necessidade do cliente;"
+      ]
+    }
+  ]
+}
