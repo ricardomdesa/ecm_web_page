@@ -8,7 +8,6 @@ function Empresa() {
         style={{
           display: "flex",
           alignItems: "center",
-          // margin: "auto 20px 0px 30px",
           justifyContent: "center",
         }}
       >
@@ -28,7 +27,6 @@ function Empresa() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          margin: "30px 30px 30px 30px",
         }}
       >
         <h3>Quem somos</h3>
@@ -39,7 +37,6 @@ function Empresa() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            margin: "30px",
           }}
         >
           <p style={{ textAlign: "center" }}>
@@ -50,11 +47,6 @@ function Empresa() {
             Contamos com uma equipe especializada e qualificada para atender aos
             mais diversos desafios presentes no cotidiano das pequenas, médias e
             grandes empresas.
-            <br />
-            <strong>
-              Nosso objetivo é oferecer as melhores soluções para nossos
-              clientes!
-            </strong>
           </p>
           <br />
           <p>

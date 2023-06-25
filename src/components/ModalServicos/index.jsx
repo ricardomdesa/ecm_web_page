@@ -1,4 +1,3 @@
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 function ModalServicos(props) {
@@ -21,9 +20,6 @@ function ModalServicos(props) {
           ))}
         </ul>
       </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
     </Modal>
   );
 }

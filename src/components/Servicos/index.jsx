@@ -32,7 +32,6 @@ function Servicos() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          margin: "30px 30px 30px 30px",
         }}
       >
         <h3>Serviços</h3>
@@ -43,7 +42,6 @@ function Servicos() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            margin: "30px",
           }}
         >
           <p>Soluções customizadas para setores estratégicos.</p>
@@ -55,7 +53,6 @@ function Servicos() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          margin: "30px",
         }}
       >
         <ControlledCarousel
