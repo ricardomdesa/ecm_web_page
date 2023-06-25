@@ -3,30 +3,22 @@ import Figure from "react-bootstrap/Figure";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import arcond from "../../../assets/arcond.jpg";
-import caldera from "../../../assets/caldera.jpg";
-import civil from "../../../assets/civil.jpg";
-import cozinha from "../../../assets/cozinha.jpg";
-import eletrica from "../../../assets/eletrica.jpg";
-import laudo from "../../../assets/laudo.jpg";
-import terceiro from "../../../assets/terceiro.jpg";
-
 const getImage = (ids) => {
   switch (ids) {
     case "eletrica":
-      return eletrica;
+      return require("../../../assets/eletrica.jpg");
     case "mecanica":
-      return caldera;
+      return require("../../../assets/caldera.jpg");
     case "refrigeracao":
-      return arcond;
+      return require("../../../assets/arcond.jpg");
     case "construcao":
-      return civil;
+      return require("../../../assets/civil.jpg");
     case "cozinha":
-      return cozinha;
+      return require("../../../assets/cozinha.jpg");
     case "laudos":
-      return laudo;
+      return require("../../../assets/laudo.jpg");
     case "terceirizacao":
-      return terceiro;
+      return require("../../../assets/terceiro.jpg");
     default:
       break;
   }
@@ -35,10 +27,10 @@ const getImage = (ids) => {
 function ControlledCarousel(props) {
   return (
     <>
-      <Carousel style={{ height: 500 }} variant="dark">
-        {props.services.map((data, index, array) => (
+      <Carousel style={{ height: 500 }} variant="dark" fade="false">
+        {props.services.map((data, index) => (
           <Carousel.Item key={index}>
-            <Stack style={{ justifyContent: "center", alignItems: "center" }}>
+            <Stack style={{ ustifyContent: "center", alignItems: "center" }}>
               <Card
                 onClick={() => {
                   props.handleCardClick(data.id);
@@ -49,7 +41,7 @@ function ControlledCarousel(props) {
                   height={200}
                   alt=""
                   src={getImage(data.id)}
-                  style={{ display: "block" }}
+                  style={{ display: "block", marginBottom: "0" }}
                 />
                 <Card.Text
                   style={{
