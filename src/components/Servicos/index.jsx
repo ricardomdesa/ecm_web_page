@@ -21,7 +21,6 @@ function Servicos() {
   function handleCardClick(value) {
     let serv = services.filter((obj) => obj.id === value)[0];
     setSelectedService(serv);
-    console.log(serv);
     setModalShow(true);
   }
 
