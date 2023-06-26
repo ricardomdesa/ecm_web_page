@@ -3,27 +3,6 @@ import Figure from "react-bootstrap/Figure";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const getImage = (ids) => {
-  switch (ids) {
-    case "eletrica":
-      return require("../../../assets/eletrica.jpg");
-    case "mecanica":
-      return require("../../../assets/caldera.jpg");
-    case "refrigeracao":
-      return require("../../../assets/arcond.jpg");
-    case "construcao":
-      return require("../../../assets/civil.jpg");
-    case "cozinha":
-      return require("../../../assets/cozinha.jpg");
-    case "laudos":
-      return require("../../../assets/laudo.jpg");
-    case "terceirizacao":
-      return require("../../../assets/terceiro.jpg");
-    default:
-      break;
-  }
-};
-
 function ControlledCarousel(props) {
   return (
     <>
@@ -40,7 +19,7 @@ function ControlledCarousel(props) {
                   width={500}
                   height={200}
                   alt=""
-                  src={getImage(data.id)}
+                  src={data.img_servico}
                   style={{ display: "block", marginBottom: "0" }}
                 />
                 <Card.Text
