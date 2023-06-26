@@ -7,7 +7,8 @@ function Footer(params) {
         color: "ivory",
         textAlign: "end",
         verticalAlign: "middle",
-        font: "15px Arial, sans-serif",
+        font: "12px Arial, sans-serif",
+        paddingBottom: "1px"
       }}
     >
       <p
