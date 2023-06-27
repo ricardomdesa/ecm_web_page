@@ -22,9 +22,6 @@ function Home() {
         <Empresa />
         <Servicos />
         <Contato />
-      </section>
-
-      <section className={styles.Layout__Footer}>
         <Footer />
       </section>
     </div>

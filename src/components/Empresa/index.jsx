@@ -37,6 +37,7 @@ function Empresa() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
+            marginTop: "20px"
           }}
         >
           <p style={{ textAlign: "center" }}>
@@ -44,12 +45,13 @@ function Empresa() {
             experiência no segmento, cujo objetivo é a completa satisfação dos
             clientes.
             <br />
+            <br />
             Contamos com uma equipe especializada e qualificada para atender aos
             mais diversos desafios presentes no cotidiano das pequenas, médias e
             grandes empresas.
           </p>
           <br />
-          <p>
+          <p style={{ textAlign: "center" }}>
             <strong>
               Nosso objetivo é oferecer as melhores soluções para nossos
               clientes!

@@ -3,7 +3,7 @@
     {
       "id": "eletrica",
       "title": "Serviços de Elétrica",
-      "img_servico": "eletrica.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/um-eletricista-trabalha-em-uma-mesa-telefonica-com-um-cabo-eletrico-de-conexao_169016-16570.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Projetos elétricos (novas instalações, alteração de layout, etc);",
         "Manutenção em equipamentos industriais;",
@@ -18,7 +18,7 @@
     {
       "id": "mecanica",
       "title": "Mecânica e Calderaria",
-      "img_servico": "caldera.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/tubulacoes-de-aco-e-cabos-em-uma-planta_1359-147.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Montagem e desmontagem de máquinas;",
         "Manutenção em equipamentos industriais;",
@@ -32,7 +32,7 @@
     {
       "id": "refrigeracao",
       "title": "Refrigeração",
-      "img_servico": "arcond.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/close-up-na-bomba-de-calor-fora-de-casa_23-2149250243.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Equipamentos de ar condicionado: instalação, manutenção corretiva e preventiva, higienização, elaboração de PMOC;",
         "Manutenção em Chiller;",
@@ -43,7 +43,7 @@
     {
       "id": "construcao",
       "title": "Construção Civil",
-      "img_servico": "civil.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/pedreiro-trabalhador-instalar-alvenaria-de-tijolo-na-parede-exterior-com-espatula-espatula_1150-10144.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Reformas em geral (ampliações, pintura, impermeabilizações, etc);",
         "Dry wall;",
@@ -56,7 +56,7 @@
     {
       "id": "cozinha",
       "title": "Cozinha Industrial",
-      "img_servico": "cozinha.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/design-profissional-de-cozinha-em-aco-inoxidavel-a-foto-foi-feita-no-restaurante_613910-12332.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Mão de obra especializada para realização de toda a manutenção em equipamentos de cozinhas industriais.",
         "Fornos combinados, elétricos e a gás;",
@@ -70,7 +70,7 @@
     {
       "id": "laudos",
       "title": "Treinamentos e laudos elétricos",
-      "img_servico": "laudo.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/reparo-da-placa-de-circuito-da-vista-superior_23-2148419141.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Laudo Elétrico e Inspeção NR10;",
         "Laudos para AVCB;",
@@ -85,7 +85,7 @@
     {
       "id": "terceirizacao",
       "title": "Terceirização de serviços",
-      "img_servico": "terceiro.jpg",
+      "img_servico": "https://img.freepik.com/fotos-gratis/aperto-de-mao-feliz-do-reparador-de-automoveis-com-o-cliente-em-uma-oficina_637285-8634.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Soluções em facilities;",
         "Profissionais especializados em Elétrica, Mecânica, Refrigeração e Construção civil;",

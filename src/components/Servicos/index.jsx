@@ -42,9 +42,10 @@ function Servicos() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
+            marginTop: "20px"
           }}
         >
-          <p>Soluções customizadas para setores estratégicos.</p>
+          <p style={{textAlign: "center"}}>Soluções customizadas para setores estratégicos.</p>
         </div>
       </Container>
       <Container
