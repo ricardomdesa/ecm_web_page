@@ -6,9 +6,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function ControlledCarousel(props) {
   return (
     <>
-      <Carousel style={{ height: 500, display: "flex", justifyContent: "center", alignItems: "center"}} variant="dark" fade="false">
+      <Carousel
+        style={{
+          height: 500,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        variant="dark"
+        fade="false"
+      >
         {props.services.map((data, index) => (
-          <Carousel.Item key={index} >
+          <Carousel.Item key={index}>
             <Stack style={{ justifyContent: "center", alignItems: "center" }}>
               <Card
                 onClick={() => {

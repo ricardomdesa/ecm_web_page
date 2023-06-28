@@ -10,7 +10,7 @@ function Servicos() {
   const [modalShow, setModalShow] = useState(false);
 
   const readJson = () => {
-    const data = require("../../data/servicos/servicos.json");
+    const data = require("../../data/db/db.json");
     setService(data.servicos);
   };
 
@@ -42,10 +42,12 @@ function Servicos() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            marginTop: "20px"
+            marginTop: "20px",
           }}
         >
-          <p style={{textAlign: "center"}}>Soluções customizadas para setores estratégicos.</p>
+          <p style={{ textAlign: "center" }}>
+            Soluções customizadas para setores estratégicos.
+          </p>
         </div>
       </Container>
       <Container

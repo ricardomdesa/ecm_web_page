@@ -8,7 +8,7 @@ function Footer(params) {
         textAlign: "end",
         verticalAlign: "middle",
         font: "12px Arial, sans-serif",
-        paddingBottom: "1px"
+        paddingBottom: "1px",
       }}
     >
       <p

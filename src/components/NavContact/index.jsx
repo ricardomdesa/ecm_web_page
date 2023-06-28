@@ -1,6 +1,7 @@
 import Nav from "react-bootstrap/Nav";
-import { BsEnvelope, BsPhone, BsWhatsapp } from "react-icons/bs";
+import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import "./style.css";
+import { useEffect, useState } from "react";
 
 export default function NavContact() {
   const navStyle = {
@@ -10,27 +11,41 @@ export default function NavContact() {
     backgroundColor: "rgb(26, 34, 53)",
   };
   const linkStyle = { color: "aliceblue" };
-  const itemStyle = { color: "aliceblue", marginTop: "5px", marginBottom: "5px"};
+  const itemStyle = {
+    color: "aliceblue",
+    marginTop: "5px",
+    marginBottom: "5px",
+  };
+  const [contatos, setContatos] = useState({});
+
+  const readJson = () => {
+    const data = require("../../data/db/db.json");
+    setContatos(data.contatos);
+  };
+
+  useEffect(() => {
+    readJson();
+  }, []);
 
   return (
     <Nav style={navStyle} activeKey="/home">
       <div class="nav-contact-class">
         <Nav.Item>
-          <Nav.Link href="mailto:123@ecm.com.br" style={linkStyle}>
+          <Nav.Link href="mailto:ecm@ecmindustrial.com.br" style={linkStyle}>
             <BsEnvelope />
-            &nbsp; abc@ecm.com.br
+            &nbsp;ecm@ecmindustrial.com.br
           </Nav.Link>
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
         <Nav.Item style={itemStyle}>
-          <BsPhone />
-          &nbsp; (19) 3865-7350
+          <BsTelephone />
+          &nbsp;{contatos.telefone}
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
       </div>
       <Nav.Item style={itemStyle}>
         <BsWhatsapp />
-        &nbsp; (19) 98210-9681
+        &nbsp;{contatos.whatsapp}
       </Nav.Item>
     </Nav>
   );

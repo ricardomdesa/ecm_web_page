@@ -37,7 +37,7 @@ function Empresa() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            marginTop: "20px"
+            marginTop: "20px",
           }}
         >
           <p style={{ textAlign: "center" }}>
@@ -51,7 +51,7 @@ function Empresa() {
             grandes empresas.
           </p>
           <br />
-          <p style={{ textAlign: "center" }}>
+          <p style={{ textAlign: "center", color: "rgb(26, 34, 53)" }}>
             <strong>
               Nosso objetivo é oferecer as melhores soluções para nossos
               clientes!
