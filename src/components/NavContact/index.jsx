@@ -7,7 +7,7 @@ export default function NavContact() {
   const navStyle = {
     display: "flex",
     flexWrap: "wrap",
-    justifyContent: "space-around",
+    justifyContent: "center",
     backgroundColor: "rgb(26, 34, 53)",
   };
   const linkStyle = { color: "aliceblue" };
