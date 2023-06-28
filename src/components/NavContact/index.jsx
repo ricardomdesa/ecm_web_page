@@ -10,7 +10,7 @@ export default function NavContact() {
     backgroundColor: "rgb(26, 34, 53)",
   };
   const linkStyle = { color: "aliceblue" };
-  const itemStyle = { color: "aliceblue", marginTop: "5px" };
+  const itemStyle = { color: "aliceblue", marginTop: "5px", marginBottom: "5px"};
 
   return (
     <Nav style={navStyle} activeKey="/home">
@@ -27,11 +27,11 @@ export default function NavContact() {
           &nbsp; (19) 3865-7350
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
-        <Nav.Item style={itemStyle}>
-          <BsWhatsapp />
-          &nbsp; (19) 98210-9681
-        </Nav.Item>
       </div>
+      <Nav.Item style={itemStyle}>
+        <BsWhatsapp />
+        &nbsp; (19) 98210-9681
+      </Nav.Item>
     </Nav>
   );
 }
