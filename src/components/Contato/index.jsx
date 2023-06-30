@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import {
   BsEnvelope,
@@ -5,7 +6,6 @@ import {
   BsTelephone,
   BsWhatsapp,
 } from "react-icons/bs";
-import { useEffect, useState } from "react";
 import Whatsapp from "./Whatapp";
 
 function Contato() {
@@ -110,8 +110,15 @@ function Contato() {
               <strong>"O nosso maior valor é a sua confiança!"</strong>
             </i>
           </span>
-          <Whatsapp number="5519982109681"/>
         </Container>
+          <Container
+            style={{
+              display: "flex",
+              justifyContent: "right",
+            }}
+          >
+            <Whatsapp number="5519982109681" />
+          </Container>
       </div>
     </section>
   );

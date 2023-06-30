@@ -5,7 +5,7 @@ function Footer(params) {
       style={{
         backgroundColor: "var(--background_ecm)",
         color: "ivory",
-        textAlign: "end",
+        textAlign: "left",
         verticalAlign: "middle",
         font: "12px Arial, sans-serif",
         paddingBottom: "1px",
