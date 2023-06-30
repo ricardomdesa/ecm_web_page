@@ -24,7 +24,7 @@ function Contato() {
   }, []);
 
   return (
-    <section id="contato" style={{ position: "relative" }}>
+    <section id="contato" style={{ position: "relative", fontSize: "18px" }}>
       <div
         style={{
           backgroundColor: "var(--background_ecm)",
@@ -39,7 +39,7 @@ function Contato() {
             alignItems: "center",
           }}
         >
-          <h3 style={{ marginTop: "20px" }}>Contato</h3>
+          <h2 style={{ marginTop: "20px", fontWeight: 600 }}>Contato</h2>
           <p>Entre em contato e solicite a visita do nosso representante:</p>
         </Container>
 

@@ -17,14 +17,30 @@
 body,
 header {
   font-family: 'Hind Siliguri', sans-serif;
+  font-size: 24px;
   font-weight: 400;
   overflow: hidden;
+}
+
+h3 {
+  color: var(--background_ecm);
+  font-weight: 600;
+}
+
+.empresa_text {
+  padding: 0 200px 0 200px;
+  text-align: center;
 }
 
 @media screen and (max-width: 700px) {
   header .container {
     display: flex;
     flex-direction: column;
+  }
+
+  .empresa_text {
+    padding: 0;
+    text-align: center;
   }
 
   .botao {

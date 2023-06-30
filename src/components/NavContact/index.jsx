@@ -8,13 +8,15 @@ export default function NavContact() {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
+    alignItems: "center",
     backgroundColor: "var(--background_ecm)",
   };
-  const linkStyle = { color: "aliceblue" };
+  const linkStyle = { color: "aliceblue", fontSize: "18px" };
   const itemStyle = {
     color: "aliceblue",
     marginTop: "5px",
     marginBottom: "5px",
+    fontSize: "18px"
   };
   const [contatos, setContatos] = useState({});
 

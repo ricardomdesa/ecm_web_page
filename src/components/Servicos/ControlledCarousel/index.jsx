@@ -17,7 +17,7 @@ function ControlledCarousel(props) {
         fade="false"
       >
         {props.services.map((data, index) => (
-          <Carousel.Item key={index}>
+          <Carousel.Item key={index} interval={2000}>
             <Stack style={{ justifyContent: "center", alignItems: "center" }}>
               <Card
                 onClick={() => {

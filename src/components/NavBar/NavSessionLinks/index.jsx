@@ -9,24 +9,17 @@ export default function NavSessionLinks() {
     gap: 16,
   };
   const linkStyle = { color: "aliceblue", fontsize: "20px" };
-  const removeTxtDecoration = { textDecoration: "None" };
   return (
     <>
       <Nav className="me-auto justify-content-center" style={navStyle}>
         <Nav.Link href="#empresa">
-          <span style={linkStyle}>
-            <u style={removeTxtDecoration}>Empresa</u>
-          </span>
+          <span style={linkStyle}>Empresa</span>
         </Nav.Link>
         <Nav.Link href="#servicos">
-          <span style={linkStyle}>
-            <u style={removeTxtDecoration}>Serviços</u>
-          </span>
+          <span style={linkStyle}>Serviços</span>
         </Nav.Link>
         <Nav.Link href="#contato">
-          <span style={linkStyle}>
-            <u style={removeTxtDecoration}>Contato</u>
-          </span>
+          <span style={linkStyle}>Contato</span>
         </Nav.Link>
       </Nav>
     </>
