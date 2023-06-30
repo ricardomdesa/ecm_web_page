@@ -6,6 +6,7 @@ import {
   BsWhatsapp,
 } from "react-icons/bs";
 import { useEffect, useState } from "react";
+import Whatsapp from "./Whatapp";
 
 function Contato() {
   const linkStyle = { color: "aliceblue" };
@@ -99,7 +100,7 @@ function Contato() {
         <Container
           style={{
             display: "flex",
-            flexDirection: "column",
+            flexDirection: "row",
             justifyContent: "space-around",
             alignItems: "center",
           }}
@@ -109,6 +110,7 @@ function Contato() {
               <strong>"O nosso maior valor é a sua confiança!"</strong>
             </i>
           </span>
+          <Whatsapp number="5519982109681" msg="ola"/>
         </Container>
       </div>
     </section>
