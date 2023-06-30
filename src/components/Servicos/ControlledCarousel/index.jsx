@@ -1,49 +1,73 @@
-import { Card, Carousel, Stack } from "react-bootstrap";
-import Figure from "react-bootstrap/Figure";
+import { Carousel } from "antd";
+import { Card, Figure } from "react-bootstrap";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useRef } from "react";
 
 function ControlledCarousel(props) {
+  const ref = useRef();
   return (
     <>
-      <Carousel
+      <div
         style={{
-          height: 500,
           display: "flex",
-          justifyContent: "center",
+          flexDirection: "row",
           alignItems: "center",
+          justifyContent: "center",
+          gap: 16,
+          marginTop: "30px",
         }}
-        variant="dark"
-        fade="false"
       >
-        {props.services.map((data, index) => (
-          <Carousel.Item key={index} interval={2000}>
-            <Stack style={{ justifyContent: "center", alignItems: "center" }}>
-              <Card
-                onClick={() => {
-                  props.handleCardClick(data.id);
-                }}
-              >
-                <Figure.Image
-                  width={500}
-                  height={200}
-                  alt=""
-                  src={data.img_servico}
-                  style={{ display: "block", marginBottom: "0" }}
-                />
-                <Card.Text
+        <BsChevronLeft size={40} onClick={() => ref.current.prev()} />
+
+        <div style={{ width: "400px", height: "400px" }}>
+          <Carousel
+            autoplay
+            dots={false}
+            pauseOnHover={true}
+            pauseOnDotsHover={true}
+            draggable
+            ref={ref}
+            prevArrow={true}
+            style={{ paddingBottom: "40px" }}
+          >
+            {props.services.map((data, index) => (
+              <div key={index}>
+                <div
                   style={{
-                    textAlign: "center",
-                    backgroundColor: "var(--amarelo_ecm)",
+                    justifyContent: "center",
+                    alignItems: "center",
                   }}
                 >
-                  {data.title}
-                </Card.Text>
-              </Card>
-            </Stack>
-          </Carousel.Item>
-        ))}
-      </Carousel>
+                  <Card
+                    onClick={() => {
+                      props.handleCardClick(data.id);
+                    }}
+                  >
+                    <Figure.Image
+                      width={500}
+                      height={200}
+                      alt=""
+                      src={data.img_servico}
+                      style={{ display: "block", marginBottom: "0" }}
+                    />
+                    <Card.Text
+                      style={{
+                        textAlign: "center",
+                        backgroundColor: "var(--amarelo_ecm)",
+                      }}
+                    >
+                      {data.title}
+                    </Card.Text>
+                  </Card>
+                </div>
+              </div>
+            ))}
+          </Carousel>
+        </div>
+        <BsChevronRight size={40} onClick={() => ref.current.next()} />
+      </div>
     </>
   );
 }
