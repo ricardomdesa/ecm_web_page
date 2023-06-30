@@ -34,7 +34,7 @@ function ControlledCarousel(props) {
                 <Card.Text
                   style={{
                     textAlign: "center",
-                    backgroundColor: "rgb(239, 174, 51)",
+                    backgroundColor: "var(--amarelo_ecm)",
                   }}
                 >
                   {data.title}

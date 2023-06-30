@@ -27,7 +27,7 @@ function Contato() {
     <section id="contato" style={{ position: "relative" }}>
       <div
         style={{
-          backgroundColor: "rgb(26, 34, 53)",
+          backgroundColor: "var(--background_ecm)",
           color: "aliceblue",
         }}
       >
@@ -105,12 +105,12 @@ function Contato() {
             alignItems: "center",
           }}
         >
-          <span style={{ color: "rgb(0, 130, 199)" }}>
+          <span style={{ color: "var(--azul_ecm)" }}>
             <i>
               <strong>"O nosso maior valor é a sua confiança!"</strong>
             </i>
           </span>
-          <Whatsapp number="5519982109681" msg="ola"/>
+          <Whatsapp number="5519982109681"/>
         </Container>
       </div>
     </section>

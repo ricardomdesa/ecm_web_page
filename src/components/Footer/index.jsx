@@ -3,7 +3,7 @@ function Footer(params) {
     <footer
       class="container-fluid"
       style={{
-        backgroundColor: "rgb(26,34,53)",
+        backgroundColor: "var(--background_ecm)",
         color: "ivory",
         textAlign: "end",
         verticalAlign: "middle",

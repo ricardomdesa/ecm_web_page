@@ -8,7 +8,7 @@ export default function NavContact() {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
-    backgroundColor: "rgb(26, 34, 53)",
+    backgroundColor: "var(--background_ecm)",
   };
   const linkStyle = { color: "aliceblue" };
   const itemStyle = {

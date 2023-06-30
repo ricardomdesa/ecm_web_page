@@ -28,7 +28,7 @@ export default function CollapseMenu() {
         click
       </Button>
       <Collapse in={open}>
-        <NavBar expand="lg" style={{ backgroundColor: "rgb(26, 34, 53" }}>
+        <NavBar expand="lg" style={{ backgroundColor: "var(--background_ecm)" }}>
           <Container style={containerStyle}>
             <Nav className="me-auto justify-content-center" style={navStyle}>
               <Nav.Link href="#empresa">

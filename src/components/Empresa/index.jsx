@@ -51,7 +51,7 @@ function Empresa() {
             grandes empresas.
           </p>
           <br />
-          <p style={{ textAlign: "center", color: "rgb(26, 34, 53)" }}>
+          <p style={{ textAlign: "center", color: "var(--background_ecm)" }}>
             <strong>
               Nosso objetivo é oferecer as melhores soluções para nossos
               clientes!
