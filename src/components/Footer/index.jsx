@@ -3,12 +3,12 @@ function Footer(params) {
     <footer
       class="container-fluid"
       style={{
-        backgroundColor: "rgb(26,34,53)",
+        backgroundColor: "var(--background_ecm)",
         color: "ivory",
-        textAlign: "end",
+        textAlign: "left",
         verticalAlign: "middle",
         font: "12px Arial, sans-serif",
-        paddingBottom: "1px"
+        paddingBottom: "1px",
       }}
     >
       <p

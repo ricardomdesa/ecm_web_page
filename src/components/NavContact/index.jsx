@@ -1,37 +1,63 @@
+import { useEffect, useState } from "react";
 import Nav from "react-bootstrap/Nav";
-import { BsEnvelope, BsPhone, BsWhatsapp } from "react-icons/bs";
+import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import "./style.css";
 
 export default function NavContact() {
   const navStyle = {
     display: "flex",
     flexWrap: "wrap",
-    justifyContent: "space-around",
-    backgroundColor: "rgb(26, 34, 53)",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "var(--background_ecm)",
   };
-  const linkStyle = { color: "aliceblue" };
-  const itemStyle = { color: "aliceblue", marginTop: "5px", marginBottom: "5px"};
+  const linkStyle = { color: "aliceblue", fontSize: "18px" };
+  const itemStyle = {
+    color: "aliceblue",
+    marginTop: "5px",
+    marginBottom: "5px",
+    fontSize: "18px",
+  };
+  const [contatos, setContatos] = useState({});
 
+  const readJson = () => {
+    const data = require("../../data/db/db.json");
+    setContatos(data.contatos);
+  };
+
+  useEffect(() => {
+    readJson();
+  }, []);
+  const linkTxt = `https://wa.me/${contatos.whatsapp_link}?text=`
   return (
     <Nav style={navStyle} activeKey="/home">
       <div class="nav-contact-class">
         <Nav.Item>
-          <Nav.Link href="mailto:123@ecm.com.br" style={linkStyle}>
+          <a
+            style={{
+              textDecoration: "None",
+              color: "aliceblue",
+              fontSize: "18px",
+            }}
+            href="mailto:ecm@ecmindustrial.com.br"
+          >
             <BsEnvelope />
-            &nbsp; abc@ecm.com.br
-          </Nav.Link>
+            &nbsp;ecm@ecmindustrial.com.br
+          </a>
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
         <Nav.Item style={itemStyle}>
-          <BsPhone />
-          &nbsp; (19) 3865-7350
+          <BsTelephone />
+          &nbsp;{contatos.telefone}
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
       </div>
-      <Nav.Item style={itemStyle}>
-        <BsWhatsapp />
-        &nbsp; (19) 98210-9681
-      </Nav.Item>
+      <div style={{ display: "flex" }}>
+        <Nav.Item style={itemStyle} onClick={() => window.open(linkTxt, "_blank")}>
+          <BsWhatsapp />
+          &nbsp;{contatos.whatsapp}
+        </Nav.Item>
+      </div>
     </Nav>
   );
 }

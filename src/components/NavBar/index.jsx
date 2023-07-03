@@ -13,7 +13,7 @@ function NavBar() {
   };
   return (
     <>
-      <Navbar expand="lg" style={{ backgroundColor: "rgb(26, 34, 53" }}>
+      <Navbar expand="lg" style={{ backgroundColor: "var(--background_ecm)" }}>
         <Container style={containerStyle} fluid>
           <Navbar.Brand href="#home">
             <img src={mainLogo} width="100" height="60" alt="logo"></img>
