@@ -1,7 +1,7 @@
+import { useEffect, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import "./style.css";
-import { useEffect, useState } from "react";
 
 export default function NavContact() {
   const navStyle = {
@@ -16,7 +16,7 @@ export default function NavContact() {
     color: "aliceblue",
     marginTop: "5px",
     marginBottom: "5px",
-    fontSize: "18px"
+    fontSize: "18px",
   };
   const [contatos, setContatos] = useState({});
 
@@ -28,15 +28,22 @@ export default function NavContact() {
   useEffect(() => {
     readJson();
   }, []);
-
+  const linkTxt = `https://wa.me/${contatos.whatsapp_link}?text=`
   return (
     <Nav style={navStyle} activeKey="/home">
       <div class="nav-contact-class">
         <Nav.Item>
-          <Nav.Link href="mailto:ecm@ecmindustrial.com.br" style={linkStyle}>
+          <a
+            style={{
+              textDecoration: "None",
+              color: "aliceblue",
+              fontSize: "18px",
+            }}
+            href="mailto:ecm@ecmindustrial.com.br"
+          >
             <BsEnvelope />
             &nbsp;ecm@ecmindustrial.com.br
-          </Nav.Link>
+          </a>
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
         <Nav.Item style={itemStyle}>
@@ -45,10 +52,12 @@ export default function NavContact() {
         </Nav.Item>
         &nbsp;&nbsp;&nbsp;
       </div>
-      <Nav.Item style={itemStyle}>
-        <BsWhatsapp />
-        &nbsp;{contatos.whatsapp}
-      </Nav.Item>
+      <div style={{ display: "flex" }}>
+        <Nav.Item style={itemStyle} onClick={() => window.open(linkTxt, "_blank")}>
+          <BsWhatsapp />
+          &nbsp;{contatos.whatsapp}
+        </Nav.Item>
+      </div>
     </Nav>
   );
 }

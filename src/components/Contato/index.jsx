@@ -117,7 +117,7 @@ function Contato() {
               justifyContent: "right",
             }}
           >
-            <Whatsapp number="5519982109681" />
+            <Whatsapp number={contatos.whatsapp_link} />
           </Container>
       </div>
     </section>
