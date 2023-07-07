@@ -1,5 +1,6 @@
 import Empresa from "../components/Empresa";
 import Servicos from "../components/Servicos";
+import Clientes from "../components/Clientes";
 import NavBar from "../components/NavBar";
 import Contato from "../components/Contato";
 import Footer from "../components/Footer";
@@ -21,6 +22,7 @@ function Home() {
         <NavBar />
         <Empresa />
         <Servicos />
+        <Clientes />
         <Contato />
         <Footer />
       </section>

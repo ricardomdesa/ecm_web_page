@@ -93,6 +93,7 @@
       ]
     }
   ],
+  
   "contatos": {
     "telefone": "(19) 3865-7350",
     "whatsapp": "(19) 98210-9681",
@@ -103,5 +104,30 @@
     "servicos.ecm@gmail.com",
     "financeiro@ecmindustrial.com.br",
     "treinamentos@ecmindustrial.com.br"
+  ],
+
+  "clientes": [
+    "Amphenol.svg",
+    "Bekaert.svg",
+    "boldrini.svg",
+    "belgo.svg",
+    "brasanitas.png",
+    "cristalia.png",
+    "coppersteel.svg",
+    "ge.svg",
+    "gran.svg",
+    "dayco.png",
+    "galderma.svg",
+    "mahle.png",
+    "LyondellBasell.png",
+    "kerry.png",
+    "future.png",
+    "suominen.svg",
+    "chicago.png",
+    "samsung.png",
+    "solubras.jpg",
+    "neorodas.png",
+    "EPTV.png"
   ]
+  
 }
