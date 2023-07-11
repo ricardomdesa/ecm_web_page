@@ -91,7 +91,7 @@
         "Treinamentos em SEP (Formação e Reciclagem);",
         "Treinamento lock out/ tag out;"
       ],
-      "img_modal": "https://img.freepik.com/fotos-gratis/reparo-da-placa-de-circuito-da-vista-superior_23-2148419141.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170"
+      "imgModal": []
     },
 
     {
@@ -103,7 +103,7 @@
         "Profissionais especializados em Elétrica, Mecânica, Refrigeração e Construção civil;",
         "Gestão de Mão de Obra temporária de acordo com a necessidade do cliente;"
       ],
-      "img_modal": "https://img.freepik.com/fotos-gratis/aperto-de-mao-feliz-do-reparador-de-automoveis-com-o-cliente-em-uma-oficina_637285-8634.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170"
+      "imgModal": []
     }
   ],
 
@@ -120,10 +120,10 @@
   ],
 
   "clientes": [
-    "Amphenol.svg",
+    "belgo.svg",
     "Bekaert.svg",
     "boldrini.svg",
-    "belgo.svg",
+    "Amphenol.svg",
     "brasanitas.png",
     "cristalia.png",
     "galderma.svg",
