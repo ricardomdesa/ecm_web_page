@@ -12,6 +12,10 @@
         "Produtos e Soluções em Automação Industrial;",
         "Projetos Unifilares;",
         "Consultoria de Projetos elétricos e eletrônicos."
+      ],
+      "imgModal": [
+        "elet1.jpeg",
+        "elet2.jpeg"
       ]
     },
 
@@ -26,17 +30,25 @@
         "plataformas e suportes em geral;",
         "Adequação de equipamentos conforme NR12;",
         "Serviços de usinagem em geral."
+      ],
+      "imgModal": [
+        "mec1.jpeg",
+        "mec2.jpeg",
+        "mec3.jpeg"
       ]
-    },
+     },
 
     {
       "id": "refrigeracao",
       "title": "Refrigeração",
-      "img_servico": "https://img.freepik.com/fotos-gratis/close-up-na-bomba-de-calor-fora-de-casa_23-2149250243.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
+      "img_servico": "https://img.freepik.com/fotos-gratis/fechar-o-sistema-de-ventilacao_23-2149388991.jpg?w=1060&t=st=1688752196~exp=1688752796~hmac=c1899bdb24c8b412f8d4158dcb6be7b4bedd2ee557460d949491dcd301caa92c",
       "conteudos": [
         "Equipamentos de ar condicionado: instalação, manutenção corretiva e preventiva, higienização, elaboração de PMOC;",
         "Manutenção em Chiller;",
         "Manutenção em Câmaras refrigeradas."
+      ],
+      "imgModal": [
+        "refri1.jpeg"
       ]
     },
 
@@ -50,6 +62,13 @@
         "Pisos intertravados;",
         "Terraplanagem, aterros e demolição;",
         "Manutenção e instalação de sistemas elétricos e hidráulicos."
+      ],
+      "imgModal": [
+        "civil1.jpeg",
+        "civil2.jpeg",
+        "civil3.jpeg",
+        "civil4.jpeg",
+        "civil5.jpeg"
       ]
     },
 
@@ -65,6 +84,9 @@
         "Lava-Louça industrial;",
         "Utensílios e equipamentos em geral (cortadores, liquidificadores, etc.);",
         "Montagem e projetos em geral."
+      ],
+      "imgModal": [
+        "coz1.jpeg"
       ]
     },
     {
@@ -79,7 +101,8 @@
         "Treinamentos em NR10 (Formação e Reciclagem);",
         "Treinamentos em SEP (Formação e Reciclagem);",
         "Treinamento lock out/ tag out;"
-      ]
+      ],
+      "img_modal": "https://img.freepik.com/fotos-gratis/reparo-da-placa-de-circuito-da-vista-superior_23-2148419141.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170"
     },
 
     {
@@ -90,7 +113,8 @@
         "Soluções em facilities;",
         "Profissionais especializados em Elétrica, Mecânica, Refrigeração e Construção civil;",
         "Gestão de Mão de Obra temporária de acordo com a necessidade do cliente;"
-      ]
+      ],
+      "img_modal": "https://img.freepik.com/fotos-gratis/aperto-de-mao-feliz-do-reparador-de-automoveis-com-o-cliente-em-uma-oficina_637285-8634.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170"
     }
   ],
   
@@ -113,20 +137,20 @@
     "belgo.svg",
     "brasanitas.png",
     "cristalia.png",
-    "coppersteel.svg",
+    "galderma.svg",
     "ge.svg",
     "gran.svg",
     "dayco.png",
-    "galderma.svg",
+    "future.png",
     "mahle.png",
     "LyondellBasell.png",
     "kerry.png",
-    "future.png",
     "suominen.svg",
     "chicago.png",
     "samsung.png",
     "solubras.jpg",
     "neorodas.png",
+    "coppersteel.svg",
     "EPTV.png"
   ]
   

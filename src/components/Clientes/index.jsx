@@ -2,8 +2,6 @@ import { Container, Figure } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
 function Clientes() {
-  const imagem1 = require("../../assets/clientes/dayco.png")
-
   const [clientes, setClientes] = useState([]);
   const readJson = () => {
     const data = require("../../data/db/db.json");
@@ -27,18 +25,30 @@ function Clientes() {
         <h3>Nossos Clientes</h3>
 
 
-      <div class="row justify-content-md-center" >
+      <div class="row justify-content-md-center align-items-center" >
       {clientes.map((cliente, index) => {
         const imagem = require(`../../assets/clientes/${cliente}`)
         return (
-        <div key={index} class="col col-sm-3">
-          <img src={imagem} width={140} height={80}></img>
+        <div key={index} class="col col-sm-3"
+          style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        >
+          {/* <img src={imagem} width={140} height={80}></img> */ }
+          <Figure.Image
+          width={140}
+          height={80}
+          alt=""
+          src={imagem}
+          style={{ display: "block", marginBottom: "80" }}
+        />
         </div>
         )  
-      }
-      )
-    }
+      })}
       </div>
+      <br></br>
 
 
       </Container>
