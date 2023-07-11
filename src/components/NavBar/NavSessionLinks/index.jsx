@@ -18,6 +18,9 @@ export default function NavSessionLinks() {
         <Nav.Link href="#servicos">
           <span style={linkStyle}>Serviços</span>
         </Nav.Link>
+        <Nav.Link href="#clientes">
+          <span style={linkStyle}>Clientes</span>
+        </Nav.Link>
         <Nav.Link href="#contato">
           <span style={linkStyle}>Contato</span>
         </Nav.Link>

@@ -28,7 +28,7 @@ export default function NavContact() {
   useEffect(() => {
     readJson();
   }, []);
-  const linkTxt = `https://wa.me/${contatos.whatsapp_link}?text=`
+  const linkTxt = `https://wa.me/${contatos.whatsapp_link}?text=`;
   return (
     <Nav style={navStyle} activeKey="/home">
       <div class="nav-contact-class">
@@ -53,7 +53,10 @@ export default function NavContact() {
         &nbsp;&nbsp;&nbsp;
       </div>
       <div style={{ display: "flex" }}>
-        <Nav.Item style={itemStyle} onClick={() => window.open(linkTxt, "_blank")}>
+        <Nav.Item
+          style={itemStyle}
+          onClick={() => window.open(linkTxt, "_blank")}
+        >
           <BsWhatsapp />
           &nbsp;{contatos.whatsapp}
         </Nav.Item>

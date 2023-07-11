@@ -1,7 +1,10 @@
 import { Carousel } from "antd";
 import { Card, Figure } from "react-bootstrap";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-
+import {
+  BsChevronLeft,
+  BsChevronRight,
+  BsFillChatRightDotsFill,
+} from "react-icons/bs";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRef } from "react";
 
@@ -59,6 +62,7 @@ function ControlledCarousel(props) {
                       }}
                     >
                       {data.title}
+                      <BsFillChatRightDotsFill style={{ marginLeft: 60 }} />
                     </Card.Text>
                   </Card>
                 </div>
