@@ -1,9 +1,10 @@
 import { Container, Figure } from "react-bootstrap";
 import mainLogo from "../../assets/logo.png";
+import { Divider } from "antd";
 
 function Empresa() {
   return (
-    <section id="empresa" style={{ marginBottom: "30px" }}>
+    <section id="empresa" >
       <Container
         style={{
           display: "flex",
@@ -57,9 +58,9 @@ function Empresa() {
             </strong>
           </p>
         </div>
+        <Divider style={{borderColor: "lightgray"}}/>
       </Container>
 
-      <hr />
     </section>
   );
 }

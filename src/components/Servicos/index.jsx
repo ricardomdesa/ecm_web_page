@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ModalServicos from "../ModalServicos";
 import ControlledCarousel from "./ControlledCarousel";
+import { Divider } from "antd";
 
 import { Container } from "react-bootstrap";
 
@@ -70,6 +71,7 @@ function Servicos() {
             service={selectedService}
           />
         )}
+      <Divider style={{borderColor: "lightgray"}}/>
       </Container>
     </section>
   );

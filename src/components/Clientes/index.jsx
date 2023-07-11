@@ -36,7 +36,6 @@ function Clientes() {
                   justifyContent: "center",
                 }}
               >
-                {/* <img src={imagem} width={140} height={80}></img> */}
                 <Figure.Image
                   width={140}
                   height={80}
@@ -50,8 +49,6 @@ function Clientes() {
         </div>
         <br></br>
       </Container>
-
-      <hr />
     </section>
   );
 }
