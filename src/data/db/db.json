@@ -13,10 +13,7 @@
         "Projetos Unifilares;",
         "Consultoria de Projetos elétricos e eletrônicos."
       ],
-      "imgModal": [
-        "elet1.jpeg",
-        "elet2.jpeg"
-      ]
+      "imgModal": ["elet1.jpeg", "elet2.jpeg"]
     },
 
     {
@@ -31,12 +28,8 @@
         "Adequação de equipamentos conforme NR12;",
         "Serviços de usinagem em geral."
       ],
-      "imgModal": [
-        "mec1.jpeg",
-        "mec2.jpeg",
-        "mec3.jpeg"
-      ]
-     },
+      "imgModal": ["mec1.jpeg", "mec2.jpeg", "mec3.jpeg"]
+    },
 
     {
       "id": "refrigeracao",
@@ -47,9 +40,7 @@
         "Manutenção em Chiller;",
         "Manutenção em Câmaras refrigeradas."
       ],
-      "imgModal": [
-        "refri1.jpeg"
-      ]
+      "imgModal": ["refri1.jpeg"]
     },
 
     {
@@ -85,9 +76,7 @@
         "Utensílios e equipamentos em geral (cortadores, liquidificadores, etc.);",
         "Montagem e projetos em geral."
       ],
-      "imgModal": [
-        "coz1.jpeg"
-      ]
+      "imgModal": ["coz1.jpeg"]
     },
     {
       "id": "laudos",
@@ -117,7 +106,7 @@
       "img_modal": "https://img.freepik.com/fotos-gratis/aperto-de-mao-feliz-do-reparador-de-automoveis-com-o-cliente-em-uma-oficina_637285-8634.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170"
     }
   ],
-  
+
   "contatos": {
     "telefone": "(19) 3865-7350",
     "whatsapp": "(19) 98210-9681",
@@ -153,5 +142,4 @@
     "coppersteel.svg",
     "EPTV.png"
   ]
-  
 }

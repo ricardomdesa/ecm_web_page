@@ -13,7 +13,6 @@ function Clientes() {
 
   return (
     <section id="clientes" style={{ marginBottom: "30px" }}>
-
       <Container
         style={{
           display: "flex",
@@ -24,33 +23,32 @@ function Clientes() {
       >
         <h3>Nossos Clientes</h3>
 
-
-      <div class="row justify-content-md-center align-items-center" >
-      {clientes.map((cliente, index) => {
-        const imagem = require(`../../assets/clientes/${cliente}`)
-        return (
-        <div key={index} class="col col-sm-3"
-          style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-        >
-          {/* <img src={imagem} width={140} height={80}></img> */ }
-          <Figure.Image
-          width={140}
-          height={80}
-          alt=""
-          src={imagem}
-          style={{ display: "block", marginBottom: "80" }}
-        />
+        <div class="row justify-content-md-center align-items-center">
+          {clientes.map((cliente, index) => {
+            const imagem = require(`../../assets/clientes/${cliente}`);
+            return (
+              <div
+                key={index}
+                class="col col-sm-3"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                {/* <img src={imagem} width={140} height={80}></img> */}
+                <Figure.Image
+                  width={140}
+                  height={80}
+                  alt=""
+                  src={imagem}
+                  style={{ display: "block", marginBottom: "80" }}
+                />
+              </div>
+            );
+          })}
         </div>
-        )  
-      })}
-      </div>
-      <br></br>
-
-
+        <br></br>
       </Container>
 
       <hr />

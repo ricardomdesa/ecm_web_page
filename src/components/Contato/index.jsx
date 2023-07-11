@@ -111,14 +111,14 @@ function Contato() {
             </i>
           </span>
         </Container>
-          <Container
-            style={{
-              display: "flex",
-              justifyContent: "right",
-            }}
-          >
-            <Whatsapp number={contatos.whatsapp_link} />
-          </Container>
+        <Container
+          style={{
+            display: "flex",
+            justifyContent: "right",
+          }}
+        >
+          <Whatsapp number={contatos.whatsapp_link} />
+        </Container>
       </div>
     </section>
   );
