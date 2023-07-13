@@ -4,7 +4,7 @@ import { Divider } from "antd";
 
 function Empresa() {
   return (
-    <section id="empresa" >
+    <section id="empresa">
       <Container
         style={{
           display: "flex",
@@ -58,9 +58,8 @@ function Empresa() {
             </strong>
           </p>
         </div>
-        <Divider style={{borderColor: "lightgray"}}/>
+        <Divider style={{ borderColor: "lightgray" }} />
       </Container>
-
     </section>
   );
 }

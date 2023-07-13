@@ -12,8 +12,7 @@
         "Produtos e Soluções em Automação Industrial;",
         "Projetos Unifilares;",
         "Consultoria de Projetos elétricos e eletrônicos."
-      ],
-      "imgModal": ["elet1.jpeg", "elet2.jpeg"]
+      ]
     },
 
     {
@@ -27,8 +26,7 @@
         "plataformas e suportes em geral;",
         "Adequação de equipamentos conforme NR12;",
         "Serviços de usinagem em geral."
-      ],
-      "imgModal": ["mec1.jpeg", "mec2.jpeg", "mec3.jpeg"]
+      ]
     },
 
     {
@@ -39,8 +37,7 @@
         "Equipamentos de ar condicionado: instalação, manutenção corretiva e preventiva, higienização, elaboração de PMOC;",
         "Manutenção em Chiller;",
         "Manutenção em Câmaras refrigeradas."
-      ],
-      "imgModal": ["refri1.jpeg"]
+      ]
     },
 
     {
@@ -53,13 +50,6 @@
         "Pisos intertravados;",
         "Terraplanagem, aterros e demolição;",
         "Manutenção e instalação de sistemas elétricos e hidráulicos."
-      ],
-      "imgModal": [
-        "civil1.jpeg",
-        "civil2.jpeg",
-        "civil3.jpeg",
-        "civil4.jpeg",
-        "civil5.jpeg"
       ]
     },
 
@@ -75,8 +65,7 @@
         "Lava-Louça industrial;",
         "Utensílios e equipamentos em geral (cortadores, liquidificadores, etc.);",
         "Montagem e projetos em geral."
-      ],
-      "imgModal": ["coz1.jpeg"]
+      ]
     },
     {
       "id": "laudos",
@@ -90,8 +79,7 @@
         "Treinamentos em NR10 (Formação e Reciclagem);",
         "Treinamentos em SEP (Formação e Reciclagem);",
         "Treinamento lock out/ tag out;"
-      ],
-      "imgModal": []
+      ]
     },
 
     {
@@ -102,8 +90,7 @@
         "Soluções em facilities;",
         "Profissionais especializados em Elétrica, Mecânica, Refrigeração e Construção civil;",
         "Gestão de Mão de Obra temporária de acordo com a necessidade do cliente;"
-      ],
-      "imgModal": []
+      ]
     }
   ],
 
@@ -141,5 +128,18 @@
     "neorodas.png",
     "solubras.jpg",
     "EPTV.png"
+  ],
+
+  "portifolio": [
+    "1.refri1.jpeg",
+    "2.civil4.jpeg",
+    "3.mec2.jpeg",
+    "4.mec1.jpeg",
+    "5.elet1.jpeg",
+    "6.civil5.jpeg",
+    "7.mec3.jpeg",
+    "8.coz1.jpeg",
+    "9.civil2.jpeg",
+    "10.civil1.jpeg"
   ]
 }
