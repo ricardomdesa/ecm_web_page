@@ -77,3 +77,77 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 https://upmostly.com/tutorials/how-to-use-media-queries-in-react
+
+## git config
+
+
+```
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = a Sa
+#	email = ricardo.sa@C02F70R5ML7J.(none)
+[user]
+
+name = Ricardo Sa
+
+
+# email = ricardo.mdesa@gmail.com
+
+[core]
+
+excludesfile = /Users/ricardo.sa/.gitignore_global
+
+autocrlf = input
+
+editor = code --wait
+
+sshCommand="ssh -o IdentitiesOnly=yes -i ~/.ssh/gitlab -F /dev/null"
+
+[diff] tool = vscode
+
+[difftool "vscode"]
+
+cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
+
+[merge]
+
+tool = vscode
+
+[mergetool "vscode"]
+
+cmd = code --wait $MERGED
+
+#\"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+
+trustExitCode = true
+
+[commit]
+
+template = /Users/ricardo.sa/.stCommitMsg
+
+[init]
+
+defaultBranch = main
+
+#[pull]
+
+# ff = only
+
+[pull]
+
+rebase = true
+
+[difftool "sourcetree"]
+
+cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+
+path =
+
+[mergetool "sourcetree"]
+
+cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+
+trustExitCode = true
+
+```
