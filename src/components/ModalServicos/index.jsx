@@ -1,5 +1,5 @@
 import Modal from "react-bootstrap/Modal";
-import { Figure } from "react-bootstrap";
+
 
 function ModalServicos(props) {
   return (
@@ -30,7 +30,7 @@ function ModalServicos(props) {
             ))}
           </ul>
         </Modal.Body>
-        <Modal.Footer>
+        {/* <Modal.Footer>
           {props.service.imgModal.map((data, index) => {
             const imageModal = require(`../../assets/servicos/${data}`);
             return (
@@ -52,7 +52,7 @@ function ModalServicos(props) {
               </div>
             );
           })}
-        </Modal.Footer>
+        </Modal.Footer> */}
       </div>
     </Modal>
   );

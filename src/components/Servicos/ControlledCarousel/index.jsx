@@ -24,7 +24,7 @@ function ControlledCarousel(props) {
       >
         <BsChevronLeft size={40} onClick={() => ref.current.prev()} />
 
-        <div style={{ width: "400px", height: "400px" }}>
+        <div style={{ width: "400px", height: "300px" }}>
           <Carousel
             autoplay
             dots={false}

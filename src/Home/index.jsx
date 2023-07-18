@@ -9,6 +9,7 @@ import NavContact from "../components/NavContact";
 import styles from "./index.module.css";
 import "../assets/style/main.css";
 
+
 function Home() {
   return (
     <div className={styles.Layout}>
