@@ -30,12 +30,12 @@ function Clientes() {
               return (
                 <div
                   key={index}
-                  class="col-sm-3" 
+                  class="col-sm-3"
                   style={{
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    height: 140
+                    height: 140,
                   }}
                 >
                   <Figure.Image
@@ -49,7 +49,6 @@ function Clientes() {
               );
             })}
           </div>
-
         </div>
         <br></br>
       </Container>

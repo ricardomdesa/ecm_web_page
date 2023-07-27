@@ -9,8 +9,7 @@ import NavContact from "../components/NavContact";
 import styles from "./index.module.css";
 import "../assets/style/main.css";
 
-
-function Home() {
+function HomePage() {
   return (
     <div className={styles.Layout}>
       <section className={styles.Layout__Header}>
@@ -20,7 +19,7 @@ function Home() {
       </section>
 
       <section className={styles.Layout__Body}>
-        <NavBar />
+        <NavBar isHome={true} />
         <Empresa />
         <Servicos />
         <Clientes />
@@ -31,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
