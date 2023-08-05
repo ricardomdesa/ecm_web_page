@@ -1,10 +1,7 @@
 import { Carousel } from "antd";
 import { Card, Figure } from "react-bootstrap";
-import {
-  BsChevronLeft,
-  BsChevronRight,
-  BsFillChatRightDotsFill,
-} from "react-icons/bs";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import { GiClick } from "react-icons/gi";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRef } from "react";
 
@@ -59,10 +56,11 @@ function ControlledCarousel(props) {
                       style={{
                         textAlign: "center",
                         backgroundColor: "var(--amarelo_ecm)",
+                        fontSize: 22,
                       }}
                     >
                       {data.title}
-                      <BsFillChatRightDotsFill style={{ marginLeft: 60 }} />
+                      <GiClick style={{ marginLeft: 20 }} />
                     </Card.Text>
                   </Card>
                 </div>
