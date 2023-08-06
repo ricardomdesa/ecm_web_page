@@ -28,14 +28,22 @@ export default function NavSessionLinks(props) {
         </Nav.Link>
         {props.isHome && (
           <>
-            <Nav.Link href="#empresa">
-              <span style={linkStyle}>Empresa</span>
+            <Nav>
+              <NavDropdown
+                id="nav-dropdown-example"
+                title={<span style={linkStyle}>Empresa</span>}
+              >
+                <NavDropdown.Item href="#empresa">Quem somos</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#missao">Missão</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+
+            <Nav.Link href="#clientes">
+              <span style={linkStyle}>Clientes</span>
             </Nav.Link>
             <Nav.Link href="#contato">
               <span style={linkStyle}>Contato</span>
-            </Nav.Link>
-            <Nav.Link href="#clientes">
-              <span style={linkStyle}>Clientes</span>
             </Nav.Link>
             <Navbar.Collapse id="navbar-example">
               <Nav>

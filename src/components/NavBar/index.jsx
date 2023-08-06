@@ -1,9 +1,9 @@
 import { Container } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import { FiMenu } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import mainLogo from "../../assets/logo_crop.png";
 import NavSessionLinks from "./NavSessionLinks";
-import { Link } from "react-router-dom";
 
 function NavBar(props) {
   const containerStyle = {
