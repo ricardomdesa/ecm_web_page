@@ -1,10 +1,7 @@
 import { Carousel } from "antd";
 import { Card, Figure } from "react-bootstrap";
-import {
-  BsChevronLeft,
-  BsChevronRight,
-  BsFillChatRightDotsFill,
-} from "react-icons/bs";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import { PiMagnifyingGlassPlus } from "react-icons/pi";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRef } from "react";
 
@@ -24,7 +21,13 @@ function ControlledCarousel(props) {
       >
         <BsChevronLeft size={40} onClick={() => ref.current.prev()} />
 
-        <div style={{ width: "400px", height: "300px" }}>
+        <div
+          style={{
+            width: "400px",
+            height: "300px",
+            boxShadow: "rgba(0, 0, 0, 0.40) 0px 15px 15px",
+          }}
+        >
           <Carousel
             autoplay
             dots={false}
@@ -33,7 +36,7 @@ function ControlledCarousel(props) {
             draggable
             ref={ref}
             prevArrow={true}
-            style={{ paddingBottom: "40px" }}
+            style={{ paddingBottom: "40px", cursor: "pointer" }}
           >
             {props.services.map((data, index) => (
               <div key={index}>
@@ -59,10 +62,11 @@ function ControlledCarousel(props) {
                       style={{
                         textAlign: "center",
                         backgroundColor: "var(--amarelo_ecm)",
+                        fontSize: 22,
                       }}
                     >
                       {data.title}
-                      <BsFillChatRightDotsFill style={{ marginLeft: 60 }} />
+                      <PiMagnifyingGlassPlus style={{ marginLeft: 20 }} />
                     </Card.Text>
                   </Card>
                 </div>

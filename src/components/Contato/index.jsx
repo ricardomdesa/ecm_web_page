@@ -105,9 +105,11 @@ function Contato() {
             alignItems: "center",
           }}
         >
-          <span style={{ color: "var(--azul_ecm)" }}>
+          <span style={{ color: "var(--amarelo_ecm)" }}>
             <i>
-              <strong>"O nosso maior valor é a sua confiança!"</strong>
+              <strong>
+                "O nosso maior valor é a sua <u>confiança</u>!"
+              </strong>
             </i>
           </span>
         </Container>

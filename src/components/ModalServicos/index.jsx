@@ -29,29 +29,6 @@ function ModalServicos(props) {
             ))}
           </ul>
         </Modal.Body>
-        {/* <Modal.Footer>
-          {props.service.imgModal.map((data, index) => {
-            const imageModal = require(`../../assets/servicos/${data}`);
-            return (
-              <div key={index}>
-                <div
-                  style={{
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  <Figure.Image
-                    width={200}
-                    height={100}
-                    alt=""
-                    src={imageModal}
-                    style={{ display: "block", marginBottom: "80" }}
-                  />
-                </div>
-              </div>
-            );
-          })}
-        </Modal.Footer> */}
       </div>
     </Modal>
   );

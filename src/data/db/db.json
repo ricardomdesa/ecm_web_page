@@ -69,7 +69,7 @@
     },
     {
       "id": "laudos",
-      "title": "Treinamentos e laudos elétricos",
+      "title": "Treinamentos e Laudos elétricos",
       "img_servico": "https://img.freepik.com/fotos-gratis/reparo-da-placa-de-circuito-da-vista-superior_23-2148419141.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Laudo Elétrico e Inspeção NR10;",
@@ -99,12 +99,7 @@
     "whatsapp": "(19) 98210-9681",
     "whatsapp_link": "5519982109681"
   },
-  "emails": [
-    "ecm@ecmindustrial.com.br",
-    "servicos.ecm@gmail.com",
-    "financeiro@ecmindustrial.com.br",
-    "treinamentos@ecmindustrial.com.br"
-  ],
+  "emails": ["ecm@ecmindustrial.com.br", "servicos.ecm@gmail.com"],
 
   "clientes": [
     "belgo.svg",
