@@ -1,8 +1,16 @@
 import { Container, Figure } from "react-bootstrap";
 import mainLogo from "../../assets/logo.png";
-import { Divider } from "antd";
+import { Divider, Carousel } from "antd";
+
 
 function Empresa() {
+  const contentStyle = {
+    height: '100%',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: "gray",
+  };
   return (
     <section id="empresa">
       <Container
@@ -22,6 +30,33 @@ function Empresa() {
         />
       </Container>
 
+      <Container>
+          <Carousel 
+          autoplay
+
+          >
+            <div>
+              <Figure.Image
+                style={contentStyle}
+                src={mainLogo}
+                width={900}
+                height={500}
+                alt=""
+              />
+            </div>
+            <div>
+              <Figure.Image
+                style={contentStyle}
+                src={mainLogo}
+                width={900}
+                height={500}
+                alt=""
+              />
+            </div>
+          </Carousel>
+      </Container>
+
+     
       <Container
         style={{
           display: "flex",
