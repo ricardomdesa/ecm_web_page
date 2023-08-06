@@ -71,7 +71,9 @@ function Servicos() {
             service={selectedService}
           />
         )}
-        <Divider style={{ borderColor: "lightgray", margin: "40px 0 40px 0" }} />
+        <Divider
+          style={{ borderColor: "lightgray", margin: "40px 0 40px 0" }}
+        />
       </Container>
     </section>
   );
