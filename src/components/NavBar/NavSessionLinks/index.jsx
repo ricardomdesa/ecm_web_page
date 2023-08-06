@@ -8,10 +8,8 @@ import "./style.css";
 export default function NavSessionLinks(props) {
   const navStyle = {
     display: "flex",
-    flexDirection: "row",
     justifyContent: "center",
-    flexWrap: "wrap",
-    gap: 16,
+    alignItems: "center",
   };
 
   const linkStyle = {
@@ -22,7 +20,7 @@ export default function NavSessionLinks(props) {
   const navigate = useNavigate();
   return (
     <>
-      <Nav className="me-auto justify-content-center" style={navStyle}>
+      <Nav className="me-auto" style={navStyle}>
         <Nav.Link>
           <Link to="/" style={linkStyle}>
             Inicio
@@ -33,7 +31,12 @@ export default function NavSessionLinks(props) {
             <Nav.Link href="#empresa">
               <span style={linkStyle}>Empresa</span>
             </Nav.Link>
-            <Navbar.Toggle aria-controls="navbar-example" />
+            <Nav.Link href="#contato">
+              <span style={linkStyle}>Contato</span>
+            </Nav.Link>
+            <Nav.Link href="#clientes">
+              <span style={linkStyle}>Clientes</span>
+            </Nav.Link>
             <Navbar.Collapse id="navbar-example">
               <Nav>
                 <NavDropdown
@@ -50,12 +53,6 @@ export default function NavSessionLinks(props) {
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
-            <Nav.Link href="#clientes">
-              <span style={linkStyle}>Clientes</span>
-            </Nav.Link>
-            <Nav.Link href="#contato">
-              <span style={linkStyle}>Contato</span>
-            </Nav.Link>
           </>
         )}
       </Nav>
