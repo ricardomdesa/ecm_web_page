@@ -22,8 +22,7 @@ function Portifolio() {
           justifyContent: "center",
         }}
       >
-        <br></br>
-        <h3>NOSSOS SERVIÇOS</h3>
+        <h3 style={{margin: "40px 0 40px 0"}}>Serviços Realizados</h3>
 
         <div>
           <CardGroup>
