@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import Contato from "../components/Contato";
 import Footer from "../components/Footer";
 import NavContact from "../components/NavContact";
+import Banner from "../components/Banner";
 
 import styles from "./index.module.css";
 import "../assets/style/main.css";
@@ -20,6 +21,7 @@ function HomePage() {
 
       <section className={styles.Layout__Body}>
         <NavBar isHome={true} />
+        <Banner />
         <Empresa />
         <Servicos />
         <Clientes />
