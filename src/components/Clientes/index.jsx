@@ -1,5 +1,6 @@
 import { Container, Figure } from "react-bootstrap";
 import { useEffect, useState } from "react";
+import { Divider } from "antd";
 
 function Clientes() {
   const [clientes, setClientes] = useState([]);
@@ -50,7 +51,7 @@ function Clientes() {
             })}
           </div>
         </div>
-        <br></br>
+      <Divider style={{ borderColor: "white" }} />
       </Container>
     </section>
   );

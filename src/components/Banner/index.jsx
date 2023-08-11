@@ -23,9 +23,10 @@ function Banner() {
           <div style={contentStyle}>
             <Figure.Image width={900} height={500} src={worldCloud} alt="" />
           </div>
+          <Divider style={{ borderColor: "white" }} />
         </div>
       </Carousel>
-
+      
       <Container
         style={{
           display: "flex",
@@ -34,8 +35,6 @@ function Banner() {
           justifyContent: "center",
         }}
       >
-
-      <Divider style={{ borderColor: "white" }} />
       </Container>
     </section>
   );

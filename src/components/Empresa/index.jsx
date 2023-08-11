@@ -1,6 +1,5 @@
 import { Divider } from "antd";
 import { Container } from "react-bootstrap";
-import "./style.css";
 
 function Empresa() {
   return (
