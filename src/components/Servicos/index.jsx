@@ -34,7 +34,7 @@ function Servicos() {
           justifyContent: "center",
         }}
       >
-        <h3>Serviços</h3>
+        <h3>SOLUÇÕES</h3>
 
         <div
           style={{

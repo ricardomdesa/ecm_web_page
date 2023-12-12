@@ -11,7 +11,6 @@ export default function NavContact() {
     alignItems: "center",
     backgroundColor: "var(--background_ecm)",
   };
-  const linkStyle = { color: "aliceblue", fontSize: "18px" };
   const itemStyle = {
     color: "aliceblue",
     marginTop: "5px",

@@ -33,6 +33,9 @@ section.Layout__Body {
 
 section.Layout__Footer {
   grid-area: footer;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 section.Layout__Body > div {
