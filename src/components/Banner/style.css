@@ -7,3 +7,8 @@
 .ant-carousel .slick-dots li.slick-active button{
     background-color: var(--amarelo_ecm);
 }
+
+.video {
+    width: 100%;
+    height: 100%;
+}

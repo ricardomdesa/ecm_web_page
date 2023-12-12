@@ -1,40 +1,27 @@
-import { Carousel, Divider } from "antd";
-import { Container, Figure } from "react-bootstrap";
-import mainLogo from "../../assets/logo.png";
-import worldCloud from "../../assets/worldCloud.png";
+import React from "react";
+import { Divider } from "antd";
+import { Container } from "react-bootstrap";
+import bannerShow from "../../assets/bannerShow.mp4";
 import "./style.css";
 
 function Banner() {
   const contentStyle = {
     display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
     justifyContent: "center",
   };
 
   return (
     <section id="banner">
-      <Carousel autoplay>
-        <div>
-          <div style={contentStyle}>
-            <Figure.Image width={950} height={550} src={mainLogo} alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div style={contentStyle}>
-            <Figure.Image width={900} height={500} src={worldCloud} alt="" />
-          </div>
-          <Divider style={{ borderColor: "white" }} />
-        </div>
-      </Carousel>
       
-      <Container
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
+      <Container>
+      <Divider style={{ borderColor: "white" }} />
+        <div style={contentStyle} >
+          <video loop autoPlay muted className="video">
+            <source src={bannerShow} type="video/mp4" />
+          </video>
+        </div>
       </Container>
     </section>
   );

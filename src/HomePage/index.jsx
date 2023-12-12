@@ -6,6 +6,7 @@ import Contato from "../components/Contato";
 import Footer from "../components/Footer";
 import NavContact from "../components/NavContact";
 import Banner from "../components/Banner";
+import Missao from "../components/Missao";
 
 import styles from "./index.module.css";
 import "../assets/style/main.css";
@@ -23,6 +24,7 @@ function HomePage() {
         <NavBar isHome={true} />
         <Banner />
         <Empresa />
+        <Missao />
         <Servicos />
         <Clientes />
         <Contato />

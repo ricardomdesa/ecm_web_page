@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import ModalServicos from "../ModalServicos";
 import ControlledCarousel from "./ControlledCarousel";
 import { Divider } from "antd";
-
 import { Container } from "react-bootstrap";
 
 function Servicos() {
@@ -46,7 +45,7 @@ function Servicos() {
             marginTop: "20px",
           }}
         >
-          <p style={{ textAlign: "center" }}>
+            <p style={{ textAlign: "center" }}>
             Soluções customizadas para setores estratégicos.
           </p>
         </div>

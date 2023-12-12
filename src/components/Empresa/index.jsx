@@ -1,5 +1,6 @@
 import { Divider } from "antd";
-import { Container } from "react-bootstrap";
+import { Container, Figure } from "react-bootstrap";
+import worldCloud from "../../assets/worldCloud.png";
 
 function Empresa() {
   return (
@@ -12,6 +13,7 @@ function Empresa() {
           justifyContent: "center",
         }}
       >
+        <Divider style={{ borderColor: "lightgray" }} />
         <h3>Quem somos</h3>
       </Container>
 
@@ -35,10 +37,14 @@ function Empresa() {
         </p>
         <br />
         <p style={{ textAlign: "center", color: "var(--background_ecm)" }}>
+          <div>
+            <Figure.Image width={900} height={500} src={worldCloud} alt="" />
+          </div>
           <strong>
             Nosso objetivo é oferecer as melhores soluções para nossos clientes!
           </strong>
         </p>
+
         <Divider style={{ borderColor: "lightgray" }} />
       </Container>
     </section>

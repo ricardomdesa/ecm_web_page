@@ -1,6 +1,8 @@
 import { Container, Card, CardGroup, Row, Col } from "react-bootstrap";
 import { useEffect, useState } from "react";
+import { Divider } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
+import vinheta from "../../assets/vinheta2.mp4";
 
 function Portifolio() {
   const [portifolio, setPortifolio] = useState([]);
@@ -23,6 +25,14 @@ function Portifolio() {
         }}
       >
         <h3 style={{ margin: "40px 0 40px 0" }}>Serviços Realizados</h3>
+        
+        <div>
+          <video loop autoPlay muted className="video">
+            <source src={vinheta} type="video/mp4" />
+          </video>
+        </div>
+
+        <Divider style={{ borderColor: "lightgray" }} />
 
         <div>
           <CardGroup>
