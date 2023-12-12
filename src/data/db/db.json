@@ -22,8 +22,7 @@
       "conteudos": [
         "Montagem e desmontagem de máquinas;",
         "Manutenção em equipamentos industriais;",
-        "Fabricação e montagem de estruturas metálicas, escadas,",
-        "plataformas e suportes em geral;",
+        "Fabricação e montagem de estruturas metálicas, escadas, plataformas e suportes em geral;",
         "Adequação de equipamentos conforme NR12;",
         "Serviços de usinagem em geral."
       ]
@@ -34,7 +33,7 @@
       "title": "Refrigeração",
       "img_servico": "https://img.freepik.com/fotos-gratis/fechar-o-sistema-de-ventilacao_23-2149388991.jpg?w=1060&t=st=1688752196~exp=1688752796~hmac=c1899bdb24c8b412f8d4158dcb6be7b4bedd2ee557460d949491dcd301caa92c",
       "conteudos": [
-        "Equipamentos de ar condicionado: instalação, manutenção corretiva e preventiva, higienização, elaboração de PMOC;",
+        "Equipamentos de ar condicionado: instalação, manutenção corretiva e preventiva, higienização, elaboração de PMOC (Plano de Manutenção, Operação e Controle);",
         "Manutenção em Chiller;",
         "Manutenção em Câmaras refrigeradas."
       ]
@@ -73,9 +72,9 @@
       "img_servico": "https://img.freepik.com/fotos-gratis/reparo-da-placa-de-circuito-da-vista-superior_23-2148419141.jpg?size=626&ext=jpg&uid=R106816963&ga=GA1.2.347986672.1686846170",
       "conteudos": [
         "Laudo Elétrico e Inspeção NR10;",
-        "Laudos para AVCB;",
+        "Laudos para AVCB (Auto de Vistoria do Corpo de Bombeiros);",
         "Laudo termográfico;",
-        "Laudo SPDA;",
+        "Laudo SPDA (Sistema de Proteção contra Descargas Atmosféricas);",
         "Treinamentos em NR10 (Formação e Reciclagem);",
         "Treinamentos em SEP (Formação e Reciclagem);",
         "Treinamento lock out/ tag out;"
