@@ -22,7 +22,7 @@ function Clientes() {
           justifyContent: "center",
         }}
       >
-        <h3>Nossos Clientes</h3>
+        <h3>NOSSOS CLIENTES</h3>
 
         <div class="container-fluid">
           <div class="row justify-content-md-center align-items-center">
@@ -51,6 +51,7 @@ function Clientes() {
             })}
           </div>
         </div>
+
         <Divider style={{ borderColor: "white" }} />
       </Container>
     </section>

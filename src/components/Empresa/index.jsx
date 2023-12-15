@@ -14,7 +14,7 @@ function Empresa() {
         }}
       >
         <Divider style={{ borderColor: "lightgray" }} />
-        <h3>Quem somos</h3>
+        <h3>GRUPO ECM</h3>
       </Container>
 
       <Container
@@ -27,21 +27,24 @@ function Empresa() {
         }}
       >
         <p className="empresa_text">
-          A ECM - Serviços e Manutenção Industrial é uma empresa com grande
-          experiência no segmento, cujo objetivo é a completa satisfação dos
-          clientes.
+          A ECM entrega soluções de acordo com a necessidade do seu negócio:
           <br />
-          Contamos com uma equipe especializada e qualificada para atender aos
+          Serviços, Manutenção, Projetos, Treinamentos e Terceirização.
+          <br />
+          Somos uma empresa com grande experiência no segmento, cujo objetivo é
+          a completa satisfação dos nossos clientes.
+          <br />
+          Equipe de profissionais especializada e qualificada para atender aos
           mais diversos desafios presentes no cotidiano das pequenas, médias e
           grandes empresas.
+          <br /> Atendimento rápido e de qualidade.
         </p>
-        <br />
+        <div>
+          <Figure.Image width={900} height={500} src={worldCloud} alt="" />
+        </div>
         <p style={{ textAlign: "center", color: "var(--background_ecm)" }}>
-          <div>
-            <Figure.Image width={900} height={500} src={worldCloud} alt="" />
-          </div>
           <strong>
-            Nosso objetivo é oferecer as melhores soluções para nossos clientes!
+            Nosso objetivo é oferecer as melhores soluções para o seu negócio!
           </strong>
         </p>
 

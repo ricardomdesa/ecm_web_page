@@ -1,8 +1,10 @@
-import { Container, Card, CardGroup, Row, Col } from "react-bootstrap";
-import { useEffect, useState } from "react";
-import { Divider } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
-import vinheta from "../../assets/vinheta2.mp4";
+import { useEffect, useState } from "react";
+import { Card, Container } from "react-bootstrap";
+import "./style.css";
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 function Portifolio() {
   const [portifolio, setPortifolio] = useState([]);
@@ -10,6 +12,26 @@ function Portifolio() {
     const data = require("../../data/db/db.json");
     setPortifolio(data.portifolio);
   };
+
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
   useEffect(() => {
     readJson();
   }, []);
@@ -24,35 +46,42 @@ function Portifolio() {
           justifyContent: "center",
         }}
       >
-        <h3 style={{ margin: "40px 0 40px 0" }}>Serviços Realizados</h3>
+        <h3 style={{ margin: "0px 0 40px 0" }}>SERVIÇOS REALIZADOS</h3>
 
-        <div>
-          <video loop autoPlay muted className="video">
-            <source src={vinheta} type="video/mp4" />
-          </video>
-        </div>
-
-        <Divider style={{ borderColor: "lightgray" }} />
-
-        <div>
-          <CardGroup>
-            <Row xs={1} md={2} className="g-4">
-              {portifolio.map((portifolio, index) => {
-                const imagem = require(`../../assets/portifolioServico/${portifolio}`);
-                return (
-                  <Col>
-                    <Card border="warning" style={{ marginBottom: 10 }}>
-                      <Card.Img src={imagem} variant="top" />
-                      <Card.Body>
-                        {/* <Card.Text>TEXTO</Card.Text> */}
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                );
-              })}
-            </Row>
-          </CardGroup>
-        </div>
+        <Container>
+          <Carousel
+            class="arrowStyle"
+            responsive={responsive}
+            infinite
+            autoPlay
+            shouldResetAutoplay
+          >
+            {portifolio.map((portifolio) => {
+              const imagem = require(`../../assets/portifolioServico/${portifolio}`);
+              return (
+                <div style={{ margin: "10px" }}>
+                  <Card.Img
+                    src={imagem}
+                    variant="top"
+                    alt=""
+                    style={{
+                      borderColor: "rgb(239,174,051)",
+                      borderRadius: "10px",
+                      borderStyle: "solid",
+                    }}
+                  />
+                  {/* <Card.Text style={{
+                    display: "flex",
+                    justifyContent: "center",
+                   }}
+                   >
+                    <p> legenda </p>
+                  </Card.Text> */}
+                </div>
+              );
+            })}
+          </Carousel>
+        </Container>
         <br></br>
       </Container>
     </section>

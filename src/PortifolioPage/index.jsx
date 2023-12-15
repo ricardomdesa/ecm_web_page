@@ -4,6 +4,7 @@ import NavContact from "../components/NavContact";
 
 import Portifolio from "../components/Portifolio";
 import Footer from "../components/Footer";
+import Contato from "../components/Contato";
 
 import styles from "../HomePage/index.module.css";
 import NavBar from "../components/NavBar";
@@ -19,10 +20,11 @@ function PortifolioPage() {
       </section>
 
       <section className={styles.Layout__Body}>
-        <section>
-          <Portifolio />
-        </section>
+        <Portifolio />
+        <Contato />
+      </section>
 
+      <section className={styles.Layout__Footer}>
         <Footer />
       </section>
     </div>

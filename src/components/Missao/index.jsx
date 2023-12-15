@@ -12,24 +12,24 @@ function Missao() {
   return (
     <section id="missao">
       <Container style={contentStyle}>
-        <h3>Missão Visão e Valores</h3>
+        <h3>MISSÃO, VISÃO E VALORES ECM</h3>
 
         <div>
-          <p> MISSÃO ECM </p>
+          <p> MISSÃO </p>
           <p
             style={{ textAlign: "center", color: "var(--background_ecm)" }}
           ></p>
         </div>
 
         <div>
-          <p> VISÃO ECM </p>
+          <p> VISÃO </p>
           <p
             style={{ textAlign: "center", color: "var(--background_ecm)" }}
           ></p>
         </div>
 
         <div>
-          <p> VALORES ECM </p>
+          <p> VALORES </p>
           <p
             style={{ textAlign: "center", color: "var(--background_ecm)" }}
           ></p>

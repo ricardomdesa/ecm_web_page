@@ -35,16 +35,14 @@ export default function NavSessionLinks(props) {
               >
                 <NavDropdown.Item href="#empresa">Quem somos</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#missao">Missão</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#missao">Missão</NavDropdown.Item> */}
+                {/* <NavDropdown.Divider /> */}
+                <NavDropdown.Item href="#clientes">
+                  Nossos Clientes
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
 
-            <Nav.Link href="#clientes">
-              <span style={linkStyle}>Clientes</span>
-            </Nav.Link>
-            <Nav.Link href="#contato">
-              <span style={linkStyle}>Contato</span>
-            </Nav.Link>
             <Navbar.Collapse id="navbar-example">
               <Nav>
                 <NavDropdown
@@ -61,6 +59,12 @@ export default function NavSessionLinks(props) {
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
+            {/* <Nav.Link href="#clientes">
+              <span style={linkStyle}>Clientes</span>
+            </Nav.Link> */}
+            <Nav.Link href="#contato">
+              <span style={linkStyle}>Contato</span>
+            </Nav.Link>
           </>
         )}
       </Nav>
