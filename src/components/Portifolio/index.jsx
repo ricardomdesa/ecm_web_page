@@ -46,7 +46,7 @@ function Portifolio() {
           justifyContent: "center",
         }}
       >
-        <h3 style={{ margin: "0px 0 40px 0" }}>SERVIÇOS REALIZADOS</h3>
+        <h3 style={{ margin: "20px 0 30px 0" }}>SERVIÇOS REALIZADOS</h3>
 
         <Container>
           <Carousel
