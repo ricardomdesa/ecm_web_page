@@ -1,0 +1,20 @@
+/* .ant-carousel .slick-dots li button {
+  background-color: var(--azul_ecm);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: var(--amarelo_ecm);
+} */
+
+.customDot {
+  background-color: var(--azul_ecm);
+  color: aqua;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: "red";
+  border: 0;
+  color: "blue";
+}
